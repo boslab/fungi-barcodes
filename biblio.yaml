@@ -1,0 +1,782 @@
+---
+references:
+- id: awad2008
+  type: article-journal
+  author:
+  - family: Awad
+    given: Sherif
+  - family: Allison
+    given: Simon P.
+  - family: Lobo
+    given: Dileep N.
+  issued:
+  - year: 2008
+  title: The history of 0.9% saline
+  container-title: Clinical Nutrition
+  page: 179-188
+  volume: '27'
+  issue: '2'
+  keyword: Sodium chloride, 0.9% saline, Intravenous fluids, Parenteral fluids, Historical
+    article, Origins
+  URL: https://www.sciencedirect.com/science/article/pii/S0261561408000289
+  DOI: https://doi.org/10.1016/j.clnu.2008.01.008
+  ISSN: 0261-5614
+
+- id: benedek1962
+  type: article-journal
+  author:
+  - family: Benedek
+    given: Tibor
+  issued:
+  - year: 1962
+    day: 1
+  title: Fragmenta mycologica
+  container-title: Mycopathologia et mycologia applicata
+  page: 255-260
+  volume: '17'
+  issue: '3'
+  URL: https://doi.org/10.1007/BF02279298
+  DOI: 10.1007/BF02279298
+  ISSN: 1573-0832
+
+- id: bezerra2006
+  type: article-journal
+  author:
+  - family: Bezerra
+    given: Claudia C.F.
+  - family: Lima
+    given: Renata F.
+    dropping-particle: de
+  - family: Lazera
+    given: Márcia S.
+  - family: Wanke
+    given: Bodo
+  - family: Borba
+    given: Cíntia M.
+  issued:
+  - year: 2006
+  title: <span class="nocase">Viability and molecular authentication of *Coccidioides
+    immitis* strains from culture collection of the Instituto Oswaldo Cruz, Rio de
+    Janeiro, Brazil</span>
+  container-title: Revista da Sociedade Brasileira de Medicina Tropical
+  publisher: scielo
+  page: 241-244
+  volume: '39'
+  URL: http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0037-86822006000300002&nrm=iso
+  ISSN: 0037-8682
+
+- id: boesewinkel1976
+  type: article-journal
+  author:
+  - family: Boesewinkel
+    given: H.J.
+  issued:
+  - year: 1976
+  title: Storage of fungal cultures in water
+  container-title: Transactions of the British Mycological Society
+  page: 183-185
+  volume: '66'
+  issue: '1'
+  URL: https://www.sciencedirect.com/science/article/pii/S0007153676801192
+  DOI: https://doi.org/10.1016/S0007-1536(76)80119-2
+  ISSN: 0007-1536
+
+- id: boussau2009
+  type: article-journal
+  author:
+  - family: Boussau
+    given: Bastien
+  - family: Daubin
+    given: Vincent
+  issued:
+  - year: 2010
+    month: 4
+  title: Genomes as documents of evolutionary history
+  container-title: Trends in Ecology & Evolution
+  page: 224-232
+  volume: '25'
+  issue: '4'
+  URL: https://www.ncbi.nlm.nih.gov/pubmed/19880211
+  DOI: https://doi.org/10.1016/j.tree.2009.09.007
+
+- id: cavalcanti2013
+  type: article-journal
+  author:
+  - family: Cavalcanti
+    given: Sarah Desirée Barbosa
+  - family: Vidal
+    given: Mônica Scarpelli Martinelli
+  - family: Glória Teixeira de Sousa
+    given: Maria
+    dropping-particle: da
+  - family: Negro
+    given: Gilda Maria Barbaro Del
+  issued:
+  - year: 2013
+    month: 2
+  title: <span class="nocase">Viability and molecular authentication of *Coccidioides*
+    spp. isolates from the Instituto de Medicina Tropical de São Paulo culture collection,
+    Brazil</span>
+  container-title: Revista do Instituto de Medicina Tropical de São Paulo
+  publisher: scielo
+  page: 7-11
+  volume: '55'
+  URL: http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0036-46652013000100002&nrm=iso
+  ISSN: 0036-4665
+
+- id: castellani1939
+  type: article-journal
+  author:
+  - family: Castellani
+    given: Aldo
+  issued:
+  - year: 1939
+  title: The viability of some pathogenic fungi in sterile distilled water
+  container-title: Journal of Tropical Medicine and Hygiene
+  page: 225-226
+  volume: '42'
+
+- id: castellani1963
+  type: article-journal
+  author:
+  - family: Castellani
+    given: Aldo
+  issued:
+  - year: 1963
+  title: Further researches on the long viability and growth of many pathogenic fungi
+    and some bacteria in sterile distilled water
+  container-title: Mycopathologia et Mycologia Applicata
+  page: '1'
+  volume: '20'
+
+- id: castellani1964
+  type: article-journal
+  author:
+  - family: Castellani
+    given: Aldo
+  issued:
+  - year: 1964
+  title: The “water cultivation” of pathogenic fungi
+  container-title: Annales de la Société belge de médecine tropicale
+  page: 217-220
+  volume: '44'
+  issue: '2'
+  URL: http://lib.itg.be/open/asbmt/1964/1964asbm0217.pdf
+  ISSN: 0365-6527
+
+- id: castellani1967
+  type: article-journal
+  author:
+  - family: Castellani
+    given: Aldo
+  issued:
+  - year: 1967
+  title: <span class="nocase">A maintenance and cultivation of the common pathogenic
+    fungi of man in sterile distilled water. Further researches</span>
+  container-title: Journal of Tropical Medicine and Hygiene
+  page: 181-184
+  volume: '70'
+
+- id: clancy2010
+  type: article-journal
+  author:
+  - family: Clancy
+    given: Kevin
+  - family: Voigt
+    given: Christopher A.
+  issued:
+  - year: 2010
+    month: 8
+  title: 'Programming cells: Towards an automated “genetic compiler”'
+  title-short: Programming cells
+  container-title: Current Opinion in Biotechnology
+  page: 572-581
+  volume: '21'
+  issue: '4'
+  URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2950163/
+  DOI: 10.1016/j.copbio.2010.07.005
+
+- id: deCapriles1989
+  type: article-journal
+  author:
+  - family: Capriles
+    given: Claudia Hartung
+    dropping-particle: de
+  - family: Mata
+    given: Sofia
+  - family: Middelveen
+    given: Marianne
+  issued:
+  - year: 1989
+    month: 5
+    day: 1
+  title: 'Preservation of fungi in water (castellani): 20 years'
+  title-short: Preservation of fungi in water (castellani)
+  container-title: Mycopathologia
+  page: 73-79
+  volume: '106'
+  issue: '2'
+  URL: https://doi.org/10.1007/BF00437084
+  DOI: 10.1007/BF00437084
+  ISSN: 1573-0832
+
+- id: diogo2005
+  type: article-journal
+  author:
+  - family: Diogo
+    given: Hilda Conceição
+  - family: Sarpieri
+    given: Aldo
+  - family: Pires
+    given: Mário Cezar
+  issued:
+  - year: 2005
+    month: 12
+  title: Preservação de fungos em água destilada
+  container-title: Anais Brasileiros de Dermatologia
+  publisher: scielo
+  page: 591-594
+  volume: '80'
+  URL: http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0365-05962005000700004&nrm=iso
+  ISSN: 0365-0596
+
+- id: ellis1979
+  type: article-journal
+  author:
+  - family: Ellis
+    given: J. J.
+  issued:
+  - year: 1979
+  title: Preserving fungus strains in sterile water
+  container-title: Mycologia
+  publisher: Mycological Society of America
+  page: 1072-1075
+  volume: '71'
+  issue: '5'
+  URL: https://www.jstor.org/stable/3759297
+  ISSN: 00275514, 15572536
+
+- id: goler2004
+  type: thesis
+  author:
+  - family: Goler
+    given: Jonathan A.
+  issued:
+  - year: 2004
+    month: 5
+  title: '<span class="nocase">BioJADE: A design and simulation tool for synthetic
+    biological systems</span>'
+  publisher: MIT CSAIL
+  genre: Diploma thesis
+  URL: https://hdl.handle.net/1721.1/30475
+
+- id: homolka2001
+  type: article-journal
+  author:
+  - family: Homolka
+    given: Ladislav
+  - family: Lisá
+    given: Ludmila
+  - family: Eichlerová
+    given: Ivana
+  - family: Nerud
+    given: František
+  issued:
+  - year: 2001
+  title: Cryopreservation of basidiomycete strains using perlite
+  container-title: Journal of Microbiological Methods
+  page: 307-313
+  volume: '47'
+  issue: '3'
+  keyword: Basidiomycetes, Cryopreservation, Liquid nitrogen, Perlite
+  URL: https://www.sciencedirect.com/science/article/pii/S0167701201003384
+  DOI: https://doi.org/10.1016/S0167-7012(01)00338-4
+  ISSN: 0167-7012
+
+- id: gellens2000
+  type: article-journal
+  author:
+  - family: Hellens
+    given: Roger P. Hellens
+  - family: Edwards
+    given: E. Anne
+  - family: Leyland
+    given: Nicola R.
+  - family: Bean
+    given: Samantha
+  - family: Mullineaux
+    given: Philip M.
+  issued:
+  - year: 2000
+    month: 4
+    day: 1
+  title: '<span class="nocase">pGreen: a versatile and flexible binary Ti vector for
+    Agrobacterium-mediated plant transformation</span>'
+  container-title: Plant Molecular Biology
+  page: 819-832
+  volume: '42'
+  issue: '6'
+  URL: https://doi.org/10.1023/A:1006496308160
+  DOI: 10.1023/A:1006496308160
+  ISSN: 1573-5028
+
+- id: homolka2006
+  type: article-journal
+  author:
+  - family: Homolka
+    given: Ladislav
+  - family: Lisá
+    given: Ludmila
+  - family: Nerud
+    given: František
+  issued:
+  - year: 2006
+  title: 'Basidiomycete cryopreservation on perlite: Evaluation of a new method'
+  title-short: Basidiomycete cryopreservation on perlite
+  container-title: Cryobiology
+  page: 446-453
+  volume: '52'
+  issue: '3'
+  keyword: Cryopreservation, Perlite, Basidiomycetes, Liquid nitrogen, Laccase
+  URL: https://www.sciencedirect.com/science/article/pii/S0011224006000484
+  DOI: https://doi.org/10.1016/j.cryobiol.2006.02.003
+  ISSN: 0011-2240
+
+- id: homolka2014
+  type: article-journal
+  author:
+  - family: Homolka
+    given: Ladislav
+  issued:
+  - year: 2014
+  title: Preservation of live cultures of basidiomycetes—recent methods
+  container-title: Fungal Biology
+  page: 107-125
+  volume: '118'
+  issue: '2'
+  keyword: Fungi, Maintenance methods
+  URL: https://www.sciencedirect.com/science/article/pii/S1878614613001803
+  DOI: https://doi.org/10.1016/j.funbio.2013.12.002
+  ISSN: 1878-6146
+
+- id: howard1991
+  type: article-journal
+  author:
+  - family: Howard
+    given: RJ
+  - family: Ferrari
+    given: MA
+  - family: Roach
+    given: DH
+  - family: Money
+    given: NP
+  issued:
+  - year: 1991
+    month: 12
+  title: Penetration of hard substrates by a fungus employing enormous turgor pressures
+  container-title: Proceedings of the National Academy of Sciences
+  page: 11281-4
+  volume: '88'
+  issue: '24'
+
+- id: kelle2007
+  type: article-journal
+  author:
+  - family: Kelle
+    given: Alexander
+  issued:
+  - year: 2007
+    month: 11
+  title: <span class="nocase">Synthetic biology & biosecurity awareness in Europe</span>
+  container-title: Bradford Science and Technology Report
+  volume: '9'
+  URL: http://www.synbiosafe.eu/uploads/pdf/Synbiosafe-Biosecurity_awareness_in_Europe_Kelle.pdf
+
+- id: linde2017
+  type: article-journal
+  author:
+  - family: Linde
+    given: Giani Andrea
+  - family: Luciani
+    given: Alana
+  - family: Lopes
+    given: Ana Daniela
+  - family: Valle
+    given: Juliana Silveira
+    dropping-particle: do
+  - family: Colauto
+    given: Nelson Barros
+  issued:
+  - year: 2017
+  title: Long-term cryopreservation of basidiomycetes
+  container-title: Brazilian Journal of Microbiology
+  keyword: Preservation, Substrate, Fungi, Mycelial viability, Cryoprotectant
+  URL: https://www.sciencedirect.com/science/article/pii/S1517838216313934
+  DOI: https://doi.org/10.1016/j.bjm.2017.08.004
+  ISSN: 1517-8382
+
+- id: liu2000
+  type: article-journal
+  author:
+  - family: Liu
+    given: Don
+  - family: Coloe
+    given: Sue
+  - family: Baird
+    given: Rob
+  - family: Pedersen
+    given: John
+  issued:
+  - year: 2000
+    month: 1
+  title: <span class="nocase">Rapid Mini-Preparation of Fungal DNA for PCR</span>
+  container-title: Journal of Clinical Microbiology
+  page: '471'
+  volume: '38'
+  issue: '1'
+  URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC88759/
+
+- id: mcginnis1974
+  type: article-journal
+  author:
+  - family: McGinnis
+    given: M. R.
+  - family: Padhye
+    given: A. A.
+  - family: Ajello
+    given: L.
+  issued:
+  - year: 1974
+    month: 8
+  title: Storage of stock cultures of filamentous fungi, yeasts, and some aerobic
+    actinomycetes in sterile distilled water
+  container-title: Applied Microbiology
+  page: 218-222
+  volume: '28'
+  issue: '2'
+  URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC186689/
+  ISSN: 0003-6919
+
+- id: mobjerg2011
+  type: article-journal
+  author:
+  - family: Møbjerg
+    given: N.
+  - family: Halberg
+    given: K. A.
+  - family: Jørgensen
+    given: A.
+  - family: Bjørn
+    given: D. Perssonand M.
+  - family: Ramløv
+    given: H.
+  - family: Kristensen
+    given: R. M.
+  issued:
+  - year: 2011
+  title: <span class="nocase">Survival in extreme environments—On the current knowledge
+    of adaptations in tardigrades</span>
+  container-title: Acta Physiologica
+  publisher: Blackwell Publishing Ltd
+  page: 409-420
+  volume: '202'
+  issue: '3'
+  keyword: cell numbers, cryptobiosis, evolution, osmoreglation, supercooling, tardigrade
+  URL: https://dx.doi.org/10.1111/j.1748-1716.2011.02252.x
+  DOI: 10.1111/j.1748-1716.2011.02252.x
+  ISSN: 1748--1716
+
+- id: money1995
+  type: article-journal
+  author:
+  - family: Money
+    given: Nicholas P.
+  issued:
+  - year: 1995
+  title: Turgor pressure and the mechanics of fungal penetration
+  container-title: Canadian Journal of Botany
+  page: 96-102
+  volume: '73'
+  issue: S1
+  URL: https://doi.org/10.1139/b95-231
+  DOI: 10.1139/b95-231
+
+- id: mueller1998
+  type: article-journal
+  author:
+  - family: Müller
+    given: Frank-Michael C.
+  - family: Werner
+    given: Katherine E.
+  - family: Kasai
+    given: Miki
+  - family: Chanock
+    given: Andrea Francesconiand Stephen J.
+  - family: Walsh
+    given: Thomas J.
+  issued:
+  - year: 1998
+    month: 6
+  title: Rapid extraction of genomic dna from medically important yeasts and filamentous
+    fungi by high-speed cell disruption
+  container-title: Journal of Clinical Microbiology
+  page: 1625-1629
+  volume: '36'
+  issue: '6'
+  URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC104890/
+
+- id: nakatani2017
+  type: article-journal
+  author:
+  - family: Nakatani
+    given: Yoichiro
+  - family: McLysaght
+    given: Aoife
+  issued:
+  - year: 2017
+  title: 'Genomes as documents of evolutionary history: A probabilistic macrosynteny
+    model for the reconstruction of ancestral genomes'
+  title-short: Genomes as documents of evolutionary history
+  container-title: Bioinformatics
+  page: i369-i378
+  volume: '33'
+  issue: '14'
+  URL: https://dx.doi.org/10.1093/bioinformatics/btx259
+  DOI: 10.1093/bioinformatics/btx259
+
+- id: odds1991
+  type: article-journal
+  author:
+  - family: Odds
+    given: F.C.
+  issued:
+  - year: 1991
+  title: Long-term laboratory preservation of pathogenic yeasts in water
+  container-title: Journal of Medical and Veterinary Mycology
+  publisher: Taylor & Francis
+  page: 413-415
+  volume: '29'
+  issue: '6'
+  URL: https://www.tandfonline.com/doi/abs/10.1080/02681219180000651
+  DOI: 10.1080/02681219180000651
+
+- id: onofri2012
+  type: article-journal
+  author:
+  - family: Onofri
+    given: Silvano
+  - family: Torre
+    given: Rosa
+    dropping-particle: de la
+  - family: Vera
+    given: Jean-Pierre
+    dropping-particle: de
+  - family: Ott
+    given: Sieglinde
+  - family: Zucconi
+    given: Laura
+  - family: Selbmann
+    given: Laura
+  - family: Scalzi
+    given: Giuliano
+  - family: Venkateswaran
+    given: Kasthuri J.
+  - family: Rabbow
+    given: Elke
+  - family: Iñigo
+    given: Francisco J. Sánchez
+  - family: Horneck
+    given: Gerda
+  issued:
+  - year: 2012
+  title: Survival of rock-colonizing organisms after 1.5 years in outer space
+  container-title: Astrobiology
+  page: 508-516
+  volume: '12'
+  issue: '5'
+  URL: https://online.liebertpub.com/doi/abs/10.1089/ast.2011.0736
+  DOI: https://doi.org/10.1089/ast.2011.0736
+
+- id: pellicer2010
+  type: article-journal
+  author:
+  - family: Pellicer
+    given: Jaume
+  - family: Fay
+    given: Michael F.
+  - family: Leitch
+    given: Ilia J.
+  issued:
+  - year: 2010
+  title: The largest eukaryotic genome of them all?
+  container-title: Botanical Journal of the Linnean Society
+  page: 10-15
+  volume: '164'
+  issue: '1'
+  URL: https://dx.doi.org/10.1111/j.1095-8339.2010.01072.x
+  DOI: 10.1111/j.1095-8339.2010.01072.x
+
+- id: raja2017
+  type: article-journal
+  author:
+  - family: Raja
+    given: Huzefa A.
+  - family: Miller
+    given: Andrew N.
+  - family: Pearce
+    given: Cedric J.
+  - family: Oberlies
+    given: Nicholas H.
+  issued:
+  - year: 2017
+  title: 'Fungal identification using molecular tools: A primer for the natural products
+    research community'
+  title-short: Fungal identification using molecular tools
+  container-title: Journal of Natural Products
+  page: 756-770
+  volume: '80'
+  issue: '3'
+  note: 'PMID: 28199101'
+  URL: https://dx.doi.org/10.1021/acs.jnatprod.6b01085
+  DOI: 10.1021/acs.jnatprod.6b01085
+
+- id: ryan2003
+  type: article-journal
+  author:
+  - family: Ryan
+    given: M.J.
+  - family: Smith
+    given: D.
+  - family: Bridge
+    given: P.D.
+  - family: Jeffries
+    given: P.
+  issued:
+  - year: 2003
+    month: 11
+    day: 1
+  title: The relationship between fungal preservation method and secondary metabolite
+    production in metarhizium anisopliae and fusarium oxysporum
+  container-title: World Journal of Microbiology and Biotechnology
+  page: 839-844
+  volume: '19'
+  issue: '8'
+  URL: https://doi.org/10.1023/A:1026008416131
+  DOI: 10.1023/A:1026008416131
+  ISSN: 1573-0972
+
+- id: tresner1971
+  type: article-journal
+  author:
+  - family: Tresner
+    given: H. D.
+  - family: Hayes
+    given: Jean A.
+  issued:
+  - year: 1971
+    month: 8
+  title: Sodium chloride tolerance of terrestrial fungi
+  container-title: Applied and Environmental Microbiology
+  page: 210-213
+  volume: '22'
+  issue: '2'
+  URL: http://pubmedcentralcanada.ca/pmcc/articles/PMC377415/
+
+- id: wang1993
+  type: article-journal
+  author:
+  - family: Wang
+    given: Hong
+  - family: Qi
+    given: Meiqing
+  - family: Cutler
+    given: Adrian J.
+  issued:
+  - year: 1993
+  title: <span class="nocase">A simple method of preparing plant samples for PCR</span>
+  container-title: Nucleic Acids Research
+  page: 4153-4154
+  volume: '21'
+  issue: '17'
+
+- id: GGMM
+  type: chapter
+  author:
+  - family: Stamets
+    given: Paul
+  issued:
+  - year: 2000
+  title: Growing gourmet and medicinal mushrooms
+  publisher: Ten Speed Press
+  page: 110-121
+  chapter-number: '12'
+  edition: 3rd
+  ISBN: '9781607741381'
+
+- id: NAP2017
+  type: book
+  author:
+  - family: National Academies of Sciences
+    suffix: Engineering
+  - family: Medicine
+  issued:
+  - year: 2017
+  title: 'A proposed framework for identifying potential biodefense vulnerabilities
+    posed by synthetic biology: Interim report'
+  title-short: A proposed framework for identifying potential biodefense vulnerabilities
+    posed by synthetic biology
+  publisher: The National Academies Press
+  publisher-place: Washington, DC
+  URL: https://www.nap.edu/catalog/24832/a-proposed-framework-for-identifying-potential-biodefense-vulnerabilities-posed-by-synthetic-biology
+  DOI: 10.17226/24832
+  ISBN: 978-0-309-46286-0
+
+- id: blockchain
+  type: no-type
+  author:
+  - family: S.A.
+    given: Blockchain Luxembourg
+  title: Blockchain size
+  publisher: '[blockchain.info](https://blockchain.info/charts/blocks-size?timespan=all)'
+  note: Online; accessed 2017-Nov-28
+
+- id: btcpower
+  type: no-type
+  author:
+  - family: Digiconomist
+  title: Bitcoin energy consumption index
+  publisher: '[digiconomist.net](https://digiconomist.net/bitcoin-energy-consumption)'
+  note: Online; accessed 2017-Nov-28
+
+- id: dH2O
+  type: no-type
+  author:
+  - family: Osmosis
+    given: Home Reverse
+  title: What’s in the water you buy?
+  publisher: '[www.h2ro.com](http://www.h2ro.com/bottled2.htm)'
+  note: Online; accessed 2017-Nov-27
+
+- id: pvalue
+  type: no-type
+  author:
+  - family: Perfecti
+    given: Fungi
+  issued:
+  - year: 2010
+  title: <span class="nocase">What is the Stamets P Value System?</span>
+  publisher: '[www.fungi.com](https://www.fungi.com/blog/items/what-is-the-stamets-p-value-system.html)'
+  note: Online; accessed 2017-Nov-13
+
+- id: rockefeller
+  type: no-type
+  author:
+  - family: Rockefeller
+    given: Alan
+  issued:
+  - year: 2017
+    month: 12
+  title: <span class="nocase">DNA sequencing</span>
+  publisher: '[wiki.counterculturelabs.org](https://wiki.counterculturelabs.org/index.php?title=DNA_sequencing&oldid=1164)'
+  note: Online; accessed 2018-Feb-14
+...
