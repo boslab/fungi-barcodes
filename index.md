@@ -15,7 +15,12 @@ abstract: |
 
 # Materials and methods
 
-@todo
+The malt extract came from Boston Homebrew Supply in Brookline, MA.
+The yeast extract and peptone came from [add supplier] in [add city].
+The DNA extract kit (reference #740780.50) came from Machery-Nagel GmbH in Düren, Germany.
+
+The primers came from Integrated DNA Technologies in Coralville, IA.
+Massachusetts General Hospital did the Sanger sequencing.
 
 
 ## Generating biomass for DNA extraction
@@ -43,7 +48,7 @@ The total biomass of each sample ranged from 360--1,360 mg ± 10 mg.
 
 ## Extracting DNA from the mycelium pellets
 
-I extracted the DNA from 0.33--0.5g frozen mycelium samples using a NucleoSpin Soil purification kit (Machery-Nagel GmbH, Düren, Germany; reference #740780.50).
+I extracted the DNA from 0.33--0.5g frozen mycelium samples using a NucleoSpin Soil purification kit.
 I used lysis buffer SL1 without the enhancer SX and generally followed [the BosLab protocol annotations](BosLab.v2.protocol.pdf).
 Note that I performed the SW2 wash twice as in the original protocol and incubated the final elution at 37 °C for 5 min.
 I used 50 μL elution buffer, the recommended quantity for a medium-concentration extract.
@@ -61,6 +66,8 @@ I used 50 μL elution buffer, the recommended quantity for a medium-concentratio
 
 The positive control was a pGreen plasmid [@hellens2000] and the negative control was nuclease-free water.
 I also ran a Qubit v1.27 fluorometer assay with 1 μL sample sizes and recalibrated the device each time I used it.
+
+The primer sequences are ITS 1F and ITS4 from [the Fungal Barcoding website developed by NIH/NLM/NCBI](http://www.fungalbarcoding.org/DefaultInfo.aspx?Page=Primers).
 
 @todo:
 Run the PCR and Qubit again, then send samples for Sanger sequencing.
