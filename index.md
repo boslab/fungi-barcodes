@@ -1,7 +1,7 @@
 ---
 title: Fungi DNA barcoding and phylogenetic analysis
 author: Peter J. Collins
-date: 2018-08-23
+date: 2019-03-21
 bibliography: biblio.yaml
 keywords: [bioinformatics, gene library, phylogenetic DNA barcodes]
 abstract: |
@@ -16,6 +16,7 @@ abstract: |
 # Materials and methods
 
 @todo
+
 
 ## Generating biomass for DNA extraction
 
@@ -42,9 +43,11 @@ The total biomass of each sample ranged from 360--1,360 mg ± 10 mg.
 
 ## Extracting DNA from the mycelium pellets
 
-I extracted the DNA from 250 mg frozen mycelium samples using a NucleoSpin Soil purification kit (Machery-Nagel GmbH, Düren, Germany; reference #740780.50).
-I used lysis buffer SL1 without the enhancer SX and followed [the BosLab protocol annotations](BosLab.v2.protocol.pdf).
-I used 65 μL DNA elution buffer, the middle of the recommended 30--100 μL range.
+I extracted the DNA from 0.33--0.5g frozen mycelium samples using a NucleoSpin Soil purification kit (Machery-Nagel GmbH, Düren, Germany; reference #740780.50).
+I used lysis buffer SL1 without the enhancer SX and generally followed [the BosLab protocol annotations](BosLab.v2.protocol.pdf).
+Note that I performed the SW2 wash twice as in the original protocol and incubated the final elution at 37 °C for 5 min.
+I used 50 μL elution buffer, the recommended quantity for a medium-concentration extract.
+
 
 ## Doing PCR on the DNA extract
 
@@ -57,8 +60,7 @@ I used 65 μL DNA elution buffer, the middle of the recommended 30--100 μL rang
 | Cooling		| ∞		| 4			| nil		|
 
 The positive control was a pGreen plasmid [@hellens2000] and the negative control was nuclease-free water.
-I ran gel electrophoresis on a miniPCR blueGel system with a 1 kb ladder.
-I also ran a Qubit fluorometer with [ADD PARAMETERS].
+I also ran a Qubit v1.27 fluorometer assay with 1 μL sample sizes and recalibrated the device each time I used it.
 
 @todo:
 Run the PCR and Qubit again, then send samples for Sanger sequencing.
@@ -69,35 +71,37 @@ Run the PCR and Qubit again, then send samples for Sanger sequencing.
 @todo
 
 
-## 1st generation results
+## Tabulated yields
 
-| Species			| P Value	| Date (Y-m-d)	| Biomass (mg)	| Yield (ng/mL)	|
-| ---				| ---		| ---		| ---		| ---		|
-| *A. aegerita*			| P-5		| 2018-04-10	| 470		| nil		|
-| *A. niger* "Carolina"		| P-1		| 2019-02-21	| 650		| nil		|
-| *C. comatus*			| P-1		| 2019-03-07	| nil		| nil		|
-| *G. curtisii*			| P-1		| 2019-03-07	| nil		| nil		|
-| *G. lucidum*			| P-1		| 2018-02-10	| 490		| nil		|
-| *G. sessile* "HW"		| P-1		| 2018-02-03	| 420		| nil		|
-| *G. frondosa* "Charles River" | P-2		| 2018-12-29	| 420		| nil		|
-| *G. frondosa* "Fat Moon"	| P-1		| 2018-02-10	| 840		| nil		|
-| *H. abietis*			| P-4		| 2018-02-10	| 360		| nil		|
-| *H. coralloides* "Cummington"	| P-2		| 2018-02-10	| 970		| nil		|
-| *I. obliquus* "Wild"		| P-1		| 2018-02-10	| 770		| nil		|
-| *I. resinosum* "Cummington"	| P-1		| 2018-02-10	| 890		| nil		|
-| *L. edodes* "3782"		| P-4		| 2018-02-10	| 720		| nil		|
-| *M. scorodonius*		| P-		| 2018-x-y	| nil		| nil		|
-| *P. roqueforti*		| P-2		| 2018-02-10	| 750		| nil		|
-| *P. nameko* "JPN"		| P-1		| 2018-02-03	| 730		| nil		|
-| *P. nameko* "Mycoterra"	| P-7		| 2018-11-20	| 600		| nil		|
-| *P. columbinus* "Mycoterra"	| P-5		| 2018-11-20	| 740		| nil		|
-| *P. erygnii*			| P-1		| 2019-02-26	| 860		| nil		|
-| *P. ostreatus* "Mycoterra"	| P-5		| 2018-11-20	| 1,360		| nil		|
-| *P. pulmonaris*		| P-		| 2018-x-y	| nil		| nil		|
-| *P. tuber-regium*		| P-2		| 2018-02-10	| 1,100		| nil		|
+| Species			| P Value	| Date (Y-m-d)	| Biomass (mg)	| Yield (μg/mL)	| PCR (μg/mL)	|
+| ---				| ---		| ---		| ---		| ---		| ---		|
+| *A. aegerita*			| P-5		| 2018-04-10	| 470		| 41.3		| nil		|
+| *A. niger* "Carolina"		| P-1		| 2019-02-21	| 650		| nil		| nil		|
+| *C. comatus*			| P-1		| 2019-03-07	| nil		| nil		| nil		|
+| *G. curtisii*			| P-1		| 2019-03-07	| nil		| nil		| nil		|
+| *G. lucidum*			| P-1		| 2018-02-10	| 490		| 19.2		| nil		|
+| *G. sessile* "HW"		| P-1		| 2018-02-03	| 420		| 9.36		| nil		|
+| *G. frondosa* "Charles River" | P-2		| 2018-12-29	| 420		| 68.3		| nil		|
+| *G. frondosa* "Fat Moon"	| P-1		| 2018-02-10	| 840		| 43.8		| nil		|
+| *H. abietis*			| P-4		| 2018-02-10	| 360		| 239.0		| nil		|
+| *H. coralloides* "Cummington"	| P-2		| 2018-02-10	| 970		| 29.2		| nil		|
+| *I. obliquus* "Wild"		| P-1		| 2018-02-10	| 770		| 59.4		| nil		|
+| *I. resinosum* "Cummington"	| P-1		| 2018-02-10	| 890		| 20.9		| nil		|
+| *L. edodes* "3782"		| P-4		| 2018-02-10	| 720		| 13.2		| nil		|
+| *M. scorodonius*		| P-x		| 2018-x-y	| nil		| nil		| nil		|
+| *P. roqueforti*		| P-2		| 2018-02-10	| 750		| nil		| nil		|
+| *P. nameko* "JPN"		| P-1		| 2018-02-03	| 730		| 115.0		| nil		|
+| *P. nameko* "Mycoterra"	| P-7		| 2018-11-20	| 600		| nil		| nil		|
+| *P. columbinus* "Mycoterra"	| P-5		| 2018-11-20	| 740		| 15.2		| nil		|
+| *P. erygnii*			| P-1		| 2019-02-26	| 860		| nil		| nil		|
+| *P. ostreatus* "Mycoterra"	| P-5		| 2018-11-20	| 1,360		| 11.9		| nil		|
+| *P. pulmonaris*		| P-x		| 2018-x-y	| nil		| nil		| nil		|
+| *P. tuber-regium*		| P-2		| 2018-02-10	| 1,100		| 23.4		| nil		|
+| pGreen plasmid (+)		| nil		| 2018-x-y	| nil		| nil		| nil		|
+| Nuclease-free water (--)	| nil		| 2018-x-y	| nil		| nil		| nil		|
 
 
-## Fine-tuning the medium
+## Phylogenetic analysis
 
 @todo
 
@@ -111,3 +115,9 @@ Therefore it's necessary to guarantee the persistence and integrity of as many b
 ## Reconstructing helpful biomolecules
 
 @todo
+
+
+## Lorem ipsum dolor sit amet
+
+@todo:
+Reconcile this paper's budding from another closely related one.
