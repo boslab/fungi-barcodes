@@ -75,10 +75,12 @@ The positive control was a pGreen plasmid [@hellens2000] and the negative contr
 The primer sequences are ITS 1F and ITS4 from [the Fungal Barcoding website developed by NIH/NLM/NCBI](http://www.fungalbarcoding.org/DefaultInfo.aspx?Page=Primers).
 This website is down as of 28 May 2019 so please find the information below, supplemented with data from [NEB's T<sub>m</sub> calculator](https://tmcalculator.neb.com).
 
-| Primer	| Sequence			| Direction	| Bases	| % GC	| T<sub>m</sub> (°C)	|
-| ---		| ---				| ---		| ---	| ---	| ---			|
-| ITS 1F	| 5'-CTTGGTCATTTAGAGGAAGTAA-3'	| Forward	| 22	| 36	| 51			|
-| ITS4		| 5'-TCCTCCGCTTATTGATATGC-3'	| Reverse	| 20	| 45	| 54			|
+| Primer	| Sequence				| Direction	| Bases	| % GC	| T<sub>m</sub> (°C)	|
+| ---		| ---					| ---		| ---	| ---	| ---			|
+| ITS 1F	| 5'-CTTGGTCATTTAGAGGAAGTAA-3'		| Forward	| 22	| 36	| 51			|
+| ITS4		| 5'-TCCTCCGCTTATTGATATGC-3'		| Reverse	| 20	| 45	| 54			|
+| GFP-F		| 5'-GGTCCTTCTTGAGTTTGTAAC-3'		| Forward	| 21	| 43	| 53			|
+| GFP-R		| 5'-CCATCTAATTCAACAAGAATTGGGACAAC-3'	| Reverse	| 29	| 38	| 58			|
 
 I designed a PCR protocol based on [NEB's standard protocol](https://www.neb.com/protocols/0001/01/01/taq-dna-polymerase-with-standard-taq-buffer-m0273) and [their PCR optimization guidelines](https://www.neb.com/tools-and-resources/usage-guidelines/guidelines-for-pcr-optimization-with-taq-dna-polymerase).
 The content of each tube was, for a 50 μL reaction:
