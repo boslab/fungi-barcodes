@@ -115,16 +115,17 @@ After I made the tubes, I saw that the pGreen primers had a 20 μM concentration
 ## Tabulated yields
 
 The origins of my culture collection vary wildly.
-Most come from trades with friends from the Shroomery online forum.
-The *Ganodermas* come from Ryan Paul Gates via the Shroomery.
+Most came from trades with friends from the Shroomery online forum.
+I don't trade with herbs.
+The *Ganodermas* came from Ryan Paul Gates via the Shroomery.
 
-Those labelled "Mycoterra" come from Mycoterra Farm in South Deerfield, MA.
+Those labelled "Mycoterra" came from Mycoterra Farm in South Deerfield, MA.
 I collected those labelled "Cummington" myself at the Bryant Homestead in Cummington, MA.
-The wild *G. frondosas* come from the Charles River Esplanade in Boston, MA and Fat Moon Farm in Westford, MA.
-The goat cheese rind comes from Hickory Nut Farm in Lee, NH.
+The wild *G. frondosas* came from the Charles River Esplanade in Boston, MA and Fat Moon Farm in Westford, MA.
+The goat cheese rind came from Hickory Nut Farm in Lee, NH.
 
 I isolated the *P. roqueforti* myself from blue cheese.
-The yeasts come from Boston Homebrew Supply in Brookline, MA.
+The yeasts came from Boston Homebrew Supply in Brookline, MA.
 
 | Species			| P Value	| Date (Y-m-d)	| Biomass (mg)	| Raw yield (μg/mL)	| PCR yield (μg/mL)	|
 | ---				| ---		| ---		| ---		| ---			| ---			|
