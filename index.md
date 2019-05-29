@@ -10,7 +10,8 @@ abstract: |
 
 # Introduction
 
-@todo
+Some people collect coins, others stamps, still others baseball cards.
+I happen to collect fungi because they taste good and have huge biosynthethic potential.
 
 
 # Materials and methods
@@ -74,6 +75,10 @@ The positive control was a pGreen plasmid [@hellens2000] and the negative contr
 
 The primer sequences are ITS 1F and ITS4 from [the Fungal Barcoding website developed by NIH/NLM/NCBI](http://www.fungalbarcoding.org/DefaultInfo.aspx?Page=Primers).
 This website is down as of 28 May 2019 so please find the information below, supplemented with data from [NEB's T<sub>m</sub> calculator](https://tmcalculator.neb.com).
+
+Note that while my culture library skews heavily toward basidiomycetes, I opted not to use the ITS4BR reverse primer.
+The tradeoff was decreased specifity vs. being able to use the same primers for all samples in my collection.
+This seems negligible because all the crude biomass comes from pure sources such as cultivated broth.
 
 | Primer	| Sequence				| Direction	| Bases	| % GC	| T<sub>m</sub> (°C)	|
 | ---		| ---					| ---		| ---	| ---	| ---			|
