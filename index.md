@@ -116,11 +116,6 @@ After I made the tubes, I saw that the pGreen primers had a 20 μM concentration
 
 # Results and discussion
 
-@todo
-
-
-## Tabulated yields
-
 The origins of my culture collection vary wildly.
 Most came from trades with friends from the Shroomery online forum.
 I don't trade with herbs.
@@ -139,6 +134,9 @@ The microbes that live in this enchanted place have grown semi-wild for about 30
 The tube labelled "Carolina" came from Carolina Biological in Burlington, NC.
 The yeasts came from Boston Homebrew Supply in Brookline, MA.
 I isolated the *P. roqueforti* myself from supermarket blue cheese.
+
+
+## Tabulated yields
 
 | Species			| P Value	| Date (Y-m-d)	| Biomass (mg)	| Raw yield (μg/mL)	| PCR yield (μg/mL)	|
 | ---				| ---		| ---		| ---		| ---			| ---			|
