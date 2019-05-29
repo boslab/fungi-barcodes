@@ -122,10 +122,16 @@ The *Ganodermas* came from Ryan Paul Gates via the Shroomery.
 Those labelled "Mycoterra" came from Mycoterra Farm in South Deerfield, MA.
 I collected those labelled "Cummington" myself at the Bryant Homestead in Cummington, MA.
 The wild *G. frondosas* came from the Charles River Esplanade in Boston, MA and Fat Moon Farm in Westford, MA.
-The goat cheese rind came from Hickory Nut Farm in Lee, NH.
 
-I isolated the *P. roqueforti* myself from blue cheese.
+The goat cheese rind came from Hickory Nut Farm in Lee, NH.
+It's a rather special sample, aged for 5 months in a cheese cave at 54 °F and 84% humidity.
+The "Terrene" cheese is aged with wood ash where penicillin would be in a lesser cheese.
+Pungent and flavorful, not too salty, thick cords of bright grey mycelium blanketed the wedge 2--5 mm thick.
+The microbes that live in this enchanted place have grown semi-wild for about 30 years.
+
+The tube labelled "Carolina" came from Carolina Biological in Burlington, NC.
 The yeasts came from Boston Homebrew Supply in Brookline, MA.
+I isolated the *P. roqueforti* myself from supermarket blue cheese.
 
 | Species			| P Value	| Date (Y-m-d)	| Biomass (mg)	| Raw yield (μg/mL)	| PCR yield (μg/mL)	|
 | ---				| ---		| ---		| ---		| ---			| ---			|
