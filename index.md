@@ -81,7 +81,7 @@ The tradeoff was decreased specifity vs. being able to use the same primers for 
 This seems negligible because all the crude biomass comes from pure sources such as cultivated broth.
 
 | Primer	| Sequence				| Direction	| Bases	| % GC	| T<sub>m</sub> (°C)	|
-| ---		| ---					| ---		| ---	| ---	| ---			|
+| :---		| :---					| :---		| :---:	| :---:	| :---:			|
 | ITS 1F	| 5'-CTTGGTCATTTAGAGGAAGTAA-3'		| Forward	| 22	| 36	| 51			|
 | ITS4		| 5'-TCCTCCGCTTATTGATATGC-3'		| Reverse	| 20	| 45	| 54			|
 | GFP-F		| 5'-GGTCCTTCTTGAGTTTGTAAC-3'		| Forward	| 21	| 43	| 53			|
@@ -99,7 +99,7 @@ The T<sub>m</sub> calculator helped me determine the annealing temperature and t
 I used 25 cycles in an attempt to increase the data's fidelity without sacrificing the yield.
 
 | Phase			| Time (s)	| Temperature (°C)	| Cycles	|
-| ---			| ---		| ---			| ---		|
+| :---			| :---:		| :---:			| :---:		|
 | Denaturation I	| 120		| 95			| 1		|
 | Denaturation II	| 30		| 95			| 25		|
 | Annealing		| 30		| 46			| 25		|
@@ -139,7 +139,7 @@ I isolated the *P. roqueforti* myself from supermarket blue cheese.
 ## Tabulated yields
 
 | Species			| P Value	| Date (Y-m-d)	| Biomass (mg)	| Raw yield (μg/mL)	| PCR yield (μg/mL)	|
-| ---				| ---		| ---		| ---		| ---			| ---			|
+| :---				| :---:		| :---:		| :---:		| :---:			| :---:			|
 | *A. aegerita*			| P-5		| 2018-04-10	| 470		| 41.3			| nil			|
 | *A. niger* "Carolina"		| P-1		| 2019-02-21	| 650		| nil			| nil			|
 | *C. comatus*			| P-1		| 2019-03-07	| nil		| nil			| nil			|
