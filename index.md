@@ -81,11 +81,12 @@ The tradeoff was decreased specifity vs. being able to use the same primers for 
 This seems negligible because all the crude biomass comes from pure sources such as cultivated broth.
 
 | Primer	| Sequence				| Direction	| Bases	| % GC	| T<sub>m</sub> (°C)	|
-| :---		| :---					| :---		| :---:	| :---:	| :---:			|
-| ITS 1F	| 5'-CTTGGTCATTTAGAGGAAGTAA-3'		| Forward	| 22	| 36	| 51			|
-| ITS4		| 5'-TCCTCCGCTTATTGATATGC-3'		| Reverse	| 20	| 45	| 54			|
-| GFP-F		| 5'-GGTCCTTCTTGAGTTTGTAAC-3'		| Forward	| 21	| 43	| 53			|
-| GFP-R		| 5'-CCATCTAATTCAACAAGAATTGGGACAAC-3'	| Reverse	| 29	| 38	| 58			|
+| :---		| :---					| :---:		| :---:	| :---:	| :---:			|
+| ITS 1F	| 5'-CTTGGTCATTTAGAGGAAGTAA-3'		| →		| 22	| 36	| 51			|
+| ITS4		| 5'-TCCTCCGCTTATTGATATGC-3'		| ←		| 20	| 45	| 54			|
+| LR7R		| 5'-GCAGATCTTGGTGGTAG-3'		| ←		| 17	| 53	| 52			|
+| GFP-F		| 5'-GGTCCTTCTTGAGTTTGTAAC-3'		| →		| 21	| 43	| 53			|
+| GFP-R		| 5'-CCATCTAATTCAACAAGAATTGGGACAAC-3'	| ←		| 29	| 38	| 58			|
 
 I designed a PCR protocol based on [NEB's standard protocol](https://www.neb.com/protocols/0001/01/01/taq-dna-polymerase-with-standard-taq-buffer-m0273) and [their PCR optimization guidelines](https://www.neb.com/tools-and-resources/usage-guidelines/guidelines-for-pcr-optimization-with-taq-dna-polymerase).
 The content of each tube was, for a 50 μL reaction:
@@ -141,8 +142,9 @@ I isolated the *P. roqueforti* myself from supermarket blue cheese.
 | Species			| P Value	| Date (Y-m-d)	| Biomass (mg)	| Raw yield (μg/mL)	| PCR yield (μg/mL)	|
 | :---				| :---:		| :---:		| :---:		| :---:			| :---:			|
 | *A. aegerita*			| P-5		| 2018-04-10	| 470		| 41.3			| nil			|
-| *A. niger* "Carolina"		| P-1		| 2019-02-21	| 650		| nil			| nil			|
-| *C. comatus*			| P-1		| 2019-03-07	| nil		| nil			| nil			|
+| *A. niger* "Carolina"		| P-1		| 2019-02-21	| 650		| 68.9			| nil			|
+| *C. comatus*			| P-1		| 2019-03-07	| nil		| 183.0			| nil			|
+| *F. betulina*			| P-x		| 2019-x-y	| nil		| nil			| nil			|
 | *G. curtisii*			| P-1		| 2019-03-07	| nil		| nil			| nil			|
 | *G. lucidum*			| P-1		| 2018-02-10	| 490		| 19.2			| nil			|
 | *G. sessile* "HW"		| P-1		| 2018-02-03	| 420		| 9.36			| nil			|
@@ -153,19 +155,20 @@ I isolated the *P. roqueforti* myself from supermarket blue cheese.
 | *I. obliquus* "Wild"		| P-1		| 2018-02-10	| 770		| 59.4			| nil			|
 | *I. resinosum* "Cummington"	| P-1		| 2018-02-10	| 890		| 20.9			| nil			|
 | *L. edodes* "3782"		| P-4		| 2018-02-10	| 720		| 13.2			| nil			|
-| *M. scorodonius*		| P-x		| 2018-x-y	| nil		| nil			| nil			|
-| *P. roqueforti*		| P-2		| 2018-02-10	| 750		| nil			| nil			|
-| *P. adiposa* "Mycoterra"	| P-x		| 2019-x-y	| 330		| nil			| nil			|
+| *P. roqueforti*		| P-2		| 2018-02-10	| 750		| 38.3			| nil			|
+| *P. adiposa* "Mycoterra"	| P-x		| 2019-x-y	| 330		| 84.4			| nil			|
 | *P. nameko* "JPN"		| P-1		| 2018-02-03	| 730		| 115.0			| nil			|
-| *P. nameko* "Mycoterra"	| P-7		| 2018-11-20	| 600		| nil			| nil			|
+| *P. nameko* "Mycoterra"	| P-7		| 2018-11-20	| 600		| 56.2			| nil			|
 | *P. columbinus* "Mycoterra"	| P-5		| 2018-11-20	| 740		| 15.2			| nil			|
-| *P. erygnii*			| P-1		| 2019-02-26	| 860		| nil			| nil			|
+| *P. erygnii*			| P-1		| 2019-02-26	| 860		| 33.5			| nil			|
+| *P. ostreatus* "Black Pearl"	| P-x		| 2019-x-y	| nil		| nil			| nil			|
 | *P. ostreatus* "Mycoterra"	| P-5		| 2018-11-20	| 1,360		| 11.9			| nil			|
 | *P. pulmonaris*		| P-x		| 2018-x-y	| nil		| nil			| nil			|
 | *P. tuber-regium*		| P-2		| 2018-02-10	| 1,100		| 23.4			| nil			|
 | *S. bayanus*			| nil		| 2018-x-y	| 330		| 77.6			| nil			|
-| *S. cerevisiae* "Abbaye"	| nil		| 2018-x-y	| 330		| 192			| nil			|
-| Goat cheese rind "Terrene"	| nil		| 2019-05-17	| 330		| nil			| nil			|
+| *S. cerevisiae* "Abbaye"	| nil		| 2018-x-y	| 330		| 192.0			| nil			|
+| Goat cheese rind "Terrene"	| nil		| 2019-05-17	| 330		| 19.2			| nil			|
+| Sourdough starter "Gerta"	| nil		| 2019-x-y	| 330		| 30.4			| nil			|
 | pGreen plasmid (+)		| nil		| 2019-05-28	| nil		| 2.28			| nil			|
 | Nuclease-free water (--)	| nil		| 2019-05-28	| nil		| < 0.010		| < 0.010		|
 
