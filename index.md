@@ -18,9 +18,14 @@ I happen to collect fungi because they taste good and have huge biosynthethic po
 
 The malt extract came from Boston Homebrew Supply in Brookline, MA.
 The yeast extract and peptone came from [add supplier] in [add city].
-The DNA extract kit (reference #740780.50) came from Machery-Nagel GmbH in Düren, Germany.
+
+The DNA soil extract kit (740780.50) came from Machery-Nagel GmbH in Düren, Germany.
+The agarose gel extract kit (D2510-01) came from Omega Bio-tek in Norcross, GA.
 
 The primers came from Integrated DNA Technologies in Coralville, IA.
+The pGreen plasmid came from Addgene in Watertown, MA.
+The 1 kb DNA ladder and loading dye (N0550 and B7025) came from New England Biolabs in Ipswitch, MA.
+
 Massachusetts General Hospital did the Sanger sequencing.
 
 
@@ -45,7 +50,7 @@ I transferred the washed pellets to fresh tubes and centrifuged them once more w
 This removed any remaining liquid and helped prepare them for storage at --20 °C until I could perform the DNA extraction.
 I weighed each pellet before freezing it, subtracting the 1.20g that an empty tube weighs.
 
-The total biomass of each sample ranged from 360--1,360 mg ± 10 mg.
+The total biomass of each sample ranged from 330--2,060 mg ± 10 mg.
 
 
 ## Extracting DNA from the mycelium pellets
@@ -68,13 +73,16 @@ This was apparently arbitrary and I achieved wildly different yields even within
 For example, *H. abietis* vs. *H. coralloides* yielded 239.0 vs. 29.2 μg/mL, an 8-fold difference.
 
 
+![Primer map from https://dx.doi.org/10.1371%2Fjournal.pone.0097629](primer.map.png)
+
 ## Quantifying and amplifying the DNA extract
 
 I ran a Qubit v1.27 fluorometer assay with 1 μL sample sizes and recalibrated the device each time I used it.
 The positive control was a pGreen plasmid [@hellens2000] and the negative control was nuclease-free water.
 
-The primer sequences are ITS 1F and ITS4 from [the Fungal Barcoding website developed by NIH/NLM/NCBI](http://www.fungalbarcoding.org/DefaultInfo.aspx?Page=Primers).
+The primer sequences are ITS 1F/ITS4 from [the Fungal Barcoding website developed by NIH/NLM/NCBI](http://www.fungalbarcoding.org/DefaultInfo.aspx?Page=Primers).
 This website is down as of 28 May 2019 so please find the information below, supplemented with data from [NEB's T<sub>m</sub> calculator](https://tmcalculator.neb.com).
+I also used the NS7/LR3 primer pair for more comprehensive coverage of the surrounding gene region.
 
 Note that while my culture library skews heavily toward basidiomycetes, I opted not to use the ITS4BR reverse primer.
 The tradeoff was decreased specifity vs. being able to use the same primers for all samples in my collection.
@@ -89,32 +97,62 @@ This seems negligible because all the crude biomass comes from pure sources such
 | GFP-F		| 5'-GGTCCTTCTTGAGTTTGTAAC-3'		| →		| 21	| 43	| 53			|
 | GFP-R		| 5'-CCATCTAATTCAACAAGAATTGGGACAAC-3'	| ←		| 29	| 38	| 58			|
 
-I designed a PCR protocol based on [NEB's standard protocol](https://www.neb.com/protocols/0001/01/01/taq-dna-polymerase-with-standard-taq-buffer-m0273) and [their PCR optimization guidelines](https://www.neb.com/tools-and-resources/usage-guidelines/guidelines-for-pcr-optimization-with-taq-dna-polymerase).
+I designed a PCR protocol based on [NEB's standard protocol](https://www.neb.com/protocols/0001/01/01/taq-dna-polymerase-with-standard-taq-buffer-m0273) and
+[their PCR optimization guidelines](https://www.neb.com/tools-and-resources/usage-guidelines/guidelines-for-pcr-optimization-with-taq-dna-polymerase).
 The content of each tube was, for a 50 μL reaction:
 
 - 1 μL DNA extract
-- 1 μL each primer at 10 μM
-- 10 μL *Taq* 5× Master Mix
-- 37 μL nuclease-free water
+- 2 μL each primer at 10 μM
+- 20 μL *Taq* 2× Master Mix
+- 25 μL nuclease-free water
 
 The T<sub>m</sub> calculator helped me determine the annealing temperature and the expected 550 bp amplicon length determined the duration (assuming 1 kbp/s with *Taq* polymerase).
 I used 25 cycles in an attempt to increase the data's fidelity without sacrificing the yield.
 
 | Phase			| Time (s)	| Temperature (°C)	| Cycles	|
 | :---			| :---:		| :---:			| :---:		|
-| Denaturation I	| 120		| 95			| 1		|
+| Denaturation I	| 60		| 95			| 1		|
 | Denaturation II	| 30		| 95			| 25		|
-| Annealing		| 30		| 46			| 25		|
-| Extension I		| 45		| 68			| 25		|
+| Annealing (ITS)	| 30		| 46			| 25		|
+| Annealing (NS7)	| 30		| 51			| 25		|
+| Extension I (ITS)	| 45		| 68			| 25		|
+| Extension I (NS7)	| 90		| 68			| 25		|
 | Extension II		| 300		| 68			| 1		|
 | Cooling		| ∞		| 4			| nil		|
 
-The reaction finished in 1:56:14.
+The thermocycler I used was an [add model].
+Please see the run reports for each primer pair tested.
+
+- [Veriti.Run.Report.ITS1F.ITS4.txt](Veriti.Run.Report.ITS1F.ITS4.txt)
+- [Veriti.Run.Report.NS7.LR3.txt](Veriti.Run.Report.NS7.LR3.txt)
+
+
+## Purifying PCR products from agarose gels
+
+I used a miniPCR blueGel electrophoresis device because it's a low-voltage, low-reagent, non-UV system.
+[Addgene's gel purification protocol](https://www.addgene.org/protocols/gel-purification/) informed the gel composition.
+The gels contained 0.75% agarose and I cast them with a wide comb.
+
+Each gel contained the following reagents.
+Note that I prepared 8 gels with 100 mL buffer to 0.75g agarose.
+
+- 15 mL 1× TAE buffer
+- About 0.1g agarose
+- 1.5 μL GelGreen dye
+
+Each well contained about 1 μg DNA determined by the quantified yield of the PCR product.
+I also added 6× loading dye to each well: 20% of the amount of PCR product in the well.
 
 todo:
-Optimize the PCR protocol further, perhaps by using more primers.
-After I made the tubes, I saw that the pGreen primers had a 20 μM concentration.
+Run the gels, photograph the bands, and purify them'
 
+
+## Preparing samples for sequencing
+
+todo
+
+
+![The "Terrene" goat cheese](goat.cheese.jpg)
 
 # Results and discussion
 
