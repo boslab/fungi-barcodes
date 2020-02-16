@@ -5,7 +5,7 @@ date: 2019-05-29
 bibliography: biblio.yaml
 keywords: [bioinformatics, gene library, phylogenetic DNA barcodes]
 abstract: |
- @todo
+ todo
 ---
 
 # Introduction
@@ -111,7 +111,7 @@ I used 25 cycles in an attempt to increase the data's fidelity without sacrifici
 
 The reaction finished in 1:56:14.
 
-@todo:
+todo:
 Optimize the PCR protocol further, perhaps by using more primers.
 After I made the tubes, I saw that the pGreen primers had a 20 μM concentration.
 
@@ -140,43 +140,42 @@ I isolated the *P. roqueforti* myself from supermarket blue cheese.
 
 ## Tabulated yields
 
-| Species			| P Value	| Date (Y-m-d)	| Biomass (mg)	| Raw yield (μg/mL)	| PCR yield (μg/mL)	|
-| :---				| :---:		| :---:		| :---:		| :---:			| :---:			|
-| *A. aegerita*			| P-5		| 2018-04-10	| 470		| 41.3			| nil			|
-| *A. niger* "Carolina"		| P-1		| 2019-02-21	| 650		| 68.9			| nil			|
-| *C. comatus*			| P-1		| 2019-03-07	| nil		| 183.0			| nil			|
-| *F. betulina*			| P-x		| 2019-x-y	| nil		| nil			| nil			|
-| *G. curtisii*			| P-1		| 2019-03-07	| nil		| nil			| nil			|
-| *G. lucidum*			| P-1		| 2018-02-10	| 490		| 19.2			| nil			|
-| *G. sessile* "HW"		| P-1		| 2018-02-03	| 420		| 9.36			| nil			|
-| *G. frondosa* "Charles River" | P-2		| 2018-12-29	| 420		| 68.3			| nil			|
-| *G. frondosa* "Fat Moon"	| P-1		| 2018-02-10	| 840		| 43.8			| nil			|
-| *H. abietis*			| P-4		| 2018-02-10	| 360		| 239.0			| nil			|
-| *H. coralloides* "Cummington"	| P-2		| 2018-02-10	| 970		| 29.2			| nil			|
-| *I. obliquus* "Wild"		| P-1		| 2018-02-10	| 770		| 59.4			| nil			|
-| *I. resinosum* "Cummington"	| P-1		| 2018-02-10	| 890		| 20.9			| nil			|
-| *L. edodes* "3782"		| P-4		| 2018-02-10	| 720		| 13.2			| nil			|
-| *P. roqueforti*		| P-2		| 2018-02-10	| 750		| 38.3			| nil			|
-| *P. adiposa* "Mycoterra"	| P-x		| 2019-x-y	| 330		| 84.4			| nil			|
-| *P. nameko* "JPN"		| P-1		| 2018-02-03	| 730		| 115.0			| nil			|
-| *P. nameko* "Mycoterra"	| P-7		| 2018-11-20	| 600		| 56.2			| nil			|
-| *P. columbinus* "Mycoterra"	| P-5		| 2018-11-20	| 740		| 15.2			| nil			|
-| *P. erygnii*			| P-1		| 2019-02-26	| 860		| 33.5			| nil			|
-| *P. ostreatus* "Black Pearl"	| P-x		| 2019-x-y	| nil		| nil			| nil			|
-| *P. ostreatus* "Mycoterra"	| P-5		| 2018-11-20	| 1,360		| 11.9			| nil			|
-| *P. pulmonaris*		| P-x		| 2018-x-y	| nil		| nil			| nil			|
-| *P. tuber-regium*		| P-2		| 2018-02-10	| 1,100		| 23.4			| nil			|
-| *S. bayanus*			| nil		| 2018-x-y	| 330		| 77.6			| nil			|
-| *S. cerevisiae* "Abbaye"	| nil		| 2018-x-y	| 330		| 192.0			| nil			|
-| Goat cheese rind "Terrene"	| nil		| 2019-05-17	| 330		| 19.2			| nil			|
-| Sourdough starter "Gerta"	| nil		| 2019-x-y	| 330		| 30.4			| nil			|
-| pGreen plasmid (+)		| nil		| 2019-05-28	| nil		| 2.28			| nil			|
-| Nuclease-free water (--)	| nil		| 2019-05-28	| nil		| < 0.010		| < 0.010		|
-
+| Species			| P Value	| Date (Y-m-d)	| Biomass (mg)	| Raw extract (μg/mL)	| ITS PCR prod.	| ITS purified	| NS7 PCR prod.	| NS7 purified	|
+| :---				| :---:		| :---:		| :---:		| :---:			| :---:		| :---:		| :---:		| :---:		|
+| *A. aegerita*			| P-5		| 2018-04-10	| 470		| 41.3			| 13.2		| nil		| 7.41		| nil		|
+| *A. niger* "Carolina"		| P-1		| 2019-02-21	| 650		| 68.9			| 13.7		| nil		| 5.34		| nil		|
+| *C. comatus*			| P-1		| 2019-03-07	| nil		| 183.0			| 8.97		| nil		| 17.4		| nil		|
+| *F. betulina* "MMF'19"	| P-???		| 2019-???-???	| 180		| 2.29			| 3.71		| nil		| 8.48		| nil		|
+| *G. lucidum* "RPG"		| P-1		| 2018-02-10	| 490		| 19.2			| 4.85		| nil		| 4.10		| nil		|
+| *G. sessile* "HW"		| P-1		| 2018-02-03	| 420		| 9.36			| 10.1		| nil		| 23.1		| nil		|
+| *G. frondosa* "Charles River" | P-2		| 2018-12-29	| 420		| 68.3			| 21.1		| nil		| 20.6		| nil		|
+| *G. frondosa* "Fat Moon"	| P-1		| 2018-02-10	| 840		| 43.8			| 13.7		| nil		| 18.1		| nil		|
+| *H. abietis*			| P-4		| 2018-02-10	| 360		| 239.0			| 18.1		| nil		| 23.4		| nil		|
+| *H. coralloides* "Cummington"	| P-2		| 2018-02-10	| 970		| 29.2			| 4.91		| nil		| 8.63		| nil		|
+| *I. obliquus* "Wild"		| P-1		| 2018-02-10	| 770		| 59.4			| 7.90		| nil		| 17.3		| nil		|
+| *I. resinosum* "Cummington"	| P-1		| 2018-02-10	| 890		| 20.9			| 8.96		| nil		| 5.72		| nil		|
+| *L. edodes* "3782"		| P-4		| 2018-02-10	| 720		| 13.2			| 17.3		| nil		| 8.43		| nil		|
+| *P. roqueforti*		| P-2		| 2018-02-10	| 750		| 38.3			| 6.66		| nil		| 19.5		| nil		|
+| *P. adiposa* "Mycoterra"	| P-???		| 2019-???-???	| 330		| 84.4			| 4.15		| nil		| 12.3		| nil		|
+| *P. nameko* "JPN"		| P-1		| 2018-02-03	| 730		| 115.0			| 8.82		| nil		| 25.0		| nil		|
+| *P. nameko* "Mycoterra"	| P-7		| 2018-11-20	| 600		| 56.2			| 9.47		| nil		| 25.3		| nil		|
+| *P. columbinus* "Mycoterra"	| P-5		| 2018-11-20	| 740		| 15.2			| 18.9		| nil		| 15.5		| nil		|
+| *P. erygnii*			| P-1		| 2019-02-26	| 860		| 33.5			| 4.22		| nil		| 13.3		| nil		|
+| *P. ostreatus* "Black Pearl"	| P-???		| 2019-???-???	| 1,290		| 6.09			| 3.05		| nil		| 13.4		| nil		|
+| *P. ostreatus* "Mycoterra"	| P-5		| 2018-11-20	| 1,360		| 11.9			| 4.49		| nil		| 11.4		| nil		|
+| *P. pulmonaris*		| P-???		| 2018-???-???	| 2,060		| 3.67			| 3.54		| nil		| 20.8		| nil		|
+| *P. tuber-regium*		| P-2		| 2018-02-10	| 1,100		| 23.4			| 21.6		| nil		| 6.57		| nil		|
+| *S. bayanus*			| nil		| 2018		| 330		| 77.6			| 2.90		| nil		| 5.07		| nil		|
+| *S. cerevisiae* "Abbaye"	| nil		| 2018		| 330		| 192.0			| 8.31		| nil		| 11.9		| nil		|
+| Goat cheese rind "Terrene"	| nil		| 2019-05-17	| 330		| 19.2			| 12.2		| nil		| 4.67		| nil		|
+| Sourdough starter "Gerta"	| nil		| 2019-05-17	| 330		| 30.4			| 12.4		| nil		| 17.1		| nil		|
+| pGreen plasmid (+)		| nil		| 2019-05-28	| nil		| 2.28			| 3.01		| nil		| < 0.010	| nil		|
+| Nuclease-free water (--)	| nil		| 2019-05-28	| nil		| < 0.010		| 3.58		| nil		| 9.92		| nil		|
+	
 
 ## Phylogenetic analysis
 
-@todo
+todo
 
 
 # Future work
@@ -187,10 +186,10 @@ Therefore it's necessary to guarantee the persistence and integrity of as many b
 
 ## Reconstructing helpful biomolecules
 
-@todo
+todo
 
 
 ## Lorem ipsum dolor sit amet
 
-@todo:
+todo:
 Reconcile this paper's budding from another closely related one.
