@@ -1,0 +1,23 @@
+Date & Time: Mon Jan 20 20:06:19 2020
+Instrument Name: chico
+Initiating Hub: chico
+Run Method: NS7 and LR3 fungi barcodes
+Run ID: 202001200607
+User Name: None
+Reaction Volume (uL): 50
+Cover Heating: On
+Cover Temperature (Degrees C): 95.0
+Run Started: Mon Jan 20 18:08:13 2020
+Run Completed: Mon Jan 20 20:06:19 2020
+Notes: See #fungi_genomes or message @pjc on Slack
+History Log:
+Method: 
+[Stage 1] x1
+1) 95.0deg C, 1:00(mm:ss), 100%
+[Stage 2] x25
+1) 95.0deg C, 0:30(mm:ss), 100%
+2) 51.0deg C, 0:30(mm:ss), 100%
+3) 68.0deg C, 1:30(mm:ss), 100%
+[Stage 3] x1
+1) 68.0deg C, 5:00(mm:ss), 100%
+2) 4.0deg C, Infinite, 100%

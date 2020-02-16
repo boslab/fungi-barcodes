@@ -84,7 +84,8 @@ This seems negligible because all the crude biomass comes from pure sources such
 | :---		| :---					| :---:		| :---:	| :---:	| :---:			|
 | ITS 1F	| 5'-CTTGGTCATTTAGAGGAAGTAA-3'		| →		| 22	| 36	| 51			|
 | ITS4		| 5'-TCCTCCGCTTATTGATATGC-3'		| ←		| 20	| 45	| 54			|
-| LR7R		| 5'-GCAGATCTTGGTGGTAG-3'		| ←		| 17	| 53	| 52			|
+| NS7		| 5'-GAGGCAATAACAGGTCTGTGATGC-3'	| →		| 24	| 50	| 68			|
+| LR3		| 5'-CCGTGTTTCAAGACGGG-3'		| ←		| 17	| 59	| 64			|
 | GFP-F		| 5'-GGTCCTTCTTGAGTTTGTAAC-3'		| →		| 21	| 43	| 53			|
 | GFP-R		| 5'-CCATCTAATTCAACAAGAATTGGGACAAC-3'	| ←		| 29	| 38	| 58			|
 
