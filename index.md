@@ -2,6 +2,8 @@
 title: Fungi DNA barcoding and phylogenetic analysis
 author: Peter J. Collins
 date: 2019-05-29
+repo_name: '⚒️ Gitea'
+repo_url: 'https://git.pjc.is'
 bibliography: biblio.yaml
 keywords: [bioinformatics, gene library, phylogenetic DNA barcodes]
 abstract: |
