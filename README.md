@@ -1,19 +1,13 @@
----
-title: Fungi DNA barcoding and phylogenetic analysis
-author: Peter J. Collins
-date: 2019-05-29
-repo_name: '⚒️ Gitea'
-repo_url: 'https://git.pjc.is'
-bibliography: biblio.yaml
-keywords: [bioinformatics, gene library, phylogenetic DNA barcodes]
-abstract: |
- todo
----
-
 # Introduction
 
 Some people collect coins, others stamps, still others baseball cards.
 I happen to collect fungi because they taste good and have huge biosynthethic potential.
+
+This paper describes my process creating high-fidelity Sanger sequences and select next-gen sequences for fungi in my collection.
+It's a bit like slabbing coins: putting an unforgeable signature on legitimized goods.
+
+I tuned the protocol variations toward Sanger sequencing's excellent short-read accuracy.
+I also did as much of the sample processing myself to save money and ensure an attentive hand.
 
 
 # Materials and methods
@@ -33,7 +27,7 @@ Massachusetts General Hospital did the Sanger sequencing.
 
 ## Generating biomass for DNA extraction
 
-I prepared 35 mL MYPB in a 50 mL Falcon tube for each sample (malt--yeast--peptone broth; 20 g/L malt extract and 1 g/L each yeast extract and peptone).
+I prepared 35 mL MYPB in a 50 mL Falcon tube for each sample (malt–yeast–peptone broth; 20 g/L malt extract and 1 g/L each yeast extract and peptone).
 Then I fermented them for 14 days in a New Brunswick Innova 4000 Incubator Shaker ("shake 'n bake"; 250 RPM and 25 °C).
 Discrete 3D colonies formed as the samples shook and book.
 
@@ -49,23 +43,23 @@ I pippetted out the supernatant, filled each tube with 750 μL normal saline (0.
 I repeated this step 3×, vortexing and centrifuging until the samples were reasonably free of broth.
 
 I transferred the washed pellets to fresh tubes and centrifuged them once more without added saline.
-This removed any remaining liquid and helped prepare them for storage at --20 °C until I could perform the DNA extraction.
+This removed any remaining liquid and helped prepare them for storage at –20 °C until I could perform the DNA extraction.
 I weighed each pellet before freezing it, subtracting the 1.20g that an empty tube weighs.
 
-The total biomass of each sample ranged from 330--2,060 mg ± 10 mg.
+The total biomass of each sample ranged from 330–2,060 mg ± 10 mg.
 
 
 ## Extracting DNA from the mycelium pellets
 
-I extracted the DNA from 0.25--0.5g frozen mycelium samples using a NucleoSpin Soil purification kit.
-I used lysis buffer SL1 without the enhancer SX and generally followed [the BosLab protocol annotations](BosLab.v2.protocol.pdf).
+I extracted the DNA from 0.25–0.5g frozen mycelium samples using a NucleoSpin Soil purification kit.
+I used lysis buffer SL1 without the enhancer SX and generally followed the [BosLab protocol annotations](BosLab.v2.protocol.pdf).
 Note that I performed the SB wash and the SW2 wash twice as in the original protocol.
 
 I incubated 50 μL elution buffer, the recommended quantity for a medium-concentration extract, at 30 °C for 5 min.
 There's a small but significant amount of room to optimize the extraction protocol.
 The three most important deviations from the official protocol are, in my opinion,
 
-- cooling down the bead tubes at --20 °C after vortexing them,
+- cooling down the bead tubes at –20 °C after vortexing them,
 - centrifuging the collection tubes (green ring) somewhat longer after washing, and
 - incubating the elution buffer somewhat longer and warmer, then centrifuging it longer.
 
@@ -75,14 +69,16 @@ This was apparently arbitrary and I achieved wildly different yields even within
 For example, *H. abietis* vs. *H. coralloides* yielded 239.0 vs. 29.2 μg/mL, an 8-fold difference.
 
 
-![Primer map from https://dx.doi.org/10.1371%2Fjournal.pone.0097629](primer.map.png)
+| ![](primer.map.png)	|
+| :---			|
+| Primer map from https://dx.doi.org/10.1371%2Fjournal.pone.0097629 |
 
 ## Quantifying and amplifying the DNA extract
 
 I ran a Qubit v1.27 fluorometer assay with 1 μL sample sizes and recalibrated the device each time I used it.
 The positive control was a pGreen plasmid [@hellens2000] and the negative control was nuclease-free water.
 
-The primer sequences are ITS 1F/ITS4 from [the Fungal Barcoding website developed by NIH/NLM/NCBI](http://www.fungalbarcoding.org/DefaultInfo.aspx?Page=Primers).
+The primer sequences are ITS 1F/ITS4 from the [Fungal Barcoding website developed by NIH/NLM/NCBI](http://www.fungalbarcoding.org/DefaultInfo.aspx?Page=Primers).
 This website is down as of 28 May 2019 so please find the information below, supplemented with data from [NEB's T<sub>m</sub> calculator](https://tmcalculator.neb.com).
 I also used the NS7/LR3 primer pair for more comprehensive coverage of the surrounding gene region.
 
@@ -133,28 +129,35 @@ Please see the run reports for each primer pair tested.
 
 I used a miniPCR blueGel electrophoresis device because it's a low-voltage, low-reagent, non-UV system.
 [Addgene's gel purification protocol](https://www.addgene.org/protocols/gel-purification/) informed the gel composition.
-The gels contained 0.75% agarose and I cast them with a wide comb.
+The gels contained 0.7% agarose and I cast them with a wide comb.
 
+I prepared 4 gels with 60 mL buffer, 0.42g agarose, and 6 μL dye.
 Each gel contained the following reagents.
-Note that I prepared 8 gels with 100 mL buffer to 0.75g agarose.
 
 - 15 mL 1× TAE buffer
-- About 0.1g agarose
+- 0.105g agarose
 - 1.5 μL GelGreen dye
+
+todo:
+The bands weren't great.
+So I should PCR it again with half the volume and a hifh-fidelity master mix.
+Then I can use double the normal amount in the gel.
+This will really overload the beads or I can find another purification method.
 
 Each well contained about 1 μg DNA determined by the quantified yield of the PCR product.
 I also added 6× loading dye to each well: 20% of the amount of PCR product in the well.
 
-todo:
-Run the gels, photograph the bands, and purify them'
-
 
 ## Preparing samples for sequencing
 
-todo
+todo:
+Probably a quick paragraph about diluting primers and adding purified DNA.
+Add a note about the yields required for the expected length.
 
 
-![The "Terrene" goat cheese](goat.cheese.jpg)
+| ![](goat.cheese.jpg)	|
+| :---			|
+| The "Terrene" goat cheese |
 
 # Results and discussion
 
@@ -170,7 +173,7 @@ The wild *G. frondosas* came from the Charles River Esplanade in Boston, MA and 
 The goat cheese rind came from Hickory Nut Farm in Lee, NH.
 It's a rather special sample, aged for 5 months in a cheese cave at 54 °F and 84% humidity.
 The "Terrene" cheese is aged with wood ash where penicillin would be in a lesser cheese.
-Pungent and flavorful, not too salty, thick cords of bright grey mycelium blanketed the wedge 2--5 mm thick.
+Pungent and flavorful, not too salty, thick cords of bright grey mycelium blanketed the wedge 2–5 mm thick.
 The microbes that live in this enchanted place have grown semi-wild for about 30 years.
 
 The tube labelled "Carolina" came from Carolina Biological in Burlington, NC.
@@ -220,16 +223,13 @@ todo
 
 # Future work
 
-Anthropogenic mass extinction fundamentally changes the environment and accelerates the rate of random mutations.
-Therefore it's necessary to guarantee the persistence and integrity of as many beneficial genomes as possible.
+Read *The Drowned World* if you need a quick rundown.
+Manmade climate change, deforestation, and mass extinction are not good.
+What if these things also increase the general mutation rate faster than mammals can adapt?
 
+This work and my related work on long-term culture storage helps ensure that I'm working with known quantities.
+Presently long-read sequencing has about [~92–97% single read accuracy](https://en.wikipedia.org/wiki/DNA_sequencing#High-throughput_methods).
+There is also low pharmaceutical interest in medicinal fungi, often difficult or impossible to cultivate, relative to their potential.
 
-## Reconstructing helpful biomolecules
-
-todo
-
-
-## Lorem ipsum dolor sit amet
-
-todo:
-Reconcile this paper's budding from another closely related one.
+Biosynthetic gene clusters isolated and transformed seem unlikely to replicate the range of medicinal fractions present in the live mushroom.
+For these reasons I believe that storing live cultures under a sensible regimen, supercooled in inert media and with DNA identification, is a productive effort.

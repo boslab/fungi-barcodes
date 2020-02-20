@@ -1,0 +1,214 @@
+\documentclass{article}
+	\usepackage{cite}
+	\usepackage{graphicx}
+	\usepackage{hyperref}
+	\usepackage[utf8]{inputenc}
+	\usepackage{textcomp}
+	\usepackage{wrapfig}
+
+\title{Basidiomycete immutability and integrity: --80~\textdegree C cryovials and ITS sequences}
+\author{Peter J. Collins
+	\footnote{Please address correspondence to
+	\href{mailto:desk@pjc.is}{desk@pjc.is}.}}
+\date{\today}
+
+\begin{document}
+	\frenchspacing
+	\maketitle
+
+
+\begin{abstract}
+
+Homolka's perlite protocol~\cite{homolka2001, homolka2006} is a clean and simple method to store basidiomycetes.
+This paper describes my implementation of the soaked perlite method and experiences with fungal barcoding.
+
+\textbf{Keywords:}
+	bioinformatics,
+	cryopreservation,
+	gene library,
+	phylogenetic DNA barcodes
+
+\end{abstract}
+
+
+\section{Introduction}
+
+Homolka surveyed basidiomycete storage techniques in 2013 with increasing acclaim: agar slants with and without paraffin, water and saline, drying and freeze-drying, and liquid nitrogen.~\cite{homolka2014}
+Each element has its place in a managed culture library optimized for data integrity.
+
+Agar slants provide the researcher-cultivator with working inoculum.
+Saline keeps at room temperature and thereby increases the library's resilience.
+In computing terms, they're RAM and hard disks, respectively.
+
+Cryovials with ITS sequences represent tape backups with file hashes.
+Filamentous fungi tend not to survive frozen liquids or freeze drying as well as bacteria, mold, and spores.
+
+Higher fungi typically don't sporulate again until they form fruitbodies.
+Producing a sexual organ requires an exponential increase in vegetative growth.
+Perlite protocol makes it easy to isolate and store dikaryotic fungi soon after spore germination.
+
+This resolves a chicken-and-egg dilemma in mushroom cultivation.
+
+
+\section{Materials and methods}
+
+The ITS-sequenced cryovials supplement other copies of my culture library in agar slants and saline vials.
+First I fermented a 10\% glycerol broth with antibiotics and perlite, then I stored the drained crystals.
+
+I returned to the source plates to extract, amplify, and verify the ITS gene data.
+Then I sent the results to an external lab for Sanger sequencing.
+
+
+\subsection{Preparing the cryovials}
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\includegraphics[width=0.5\textwidth]{cryovials}
+	\caption{First preparation of Homolka's perlite protocol}
+\end{wrapfigure}
+
+I made an antibiotic cryoprotectant medium with Lennox LB (5 g/L NaCl), 25 $\mu$g/L chloramphenicol, and 10\% glycerol.
+Then I aerobically fermented each isolate for 10 days with 0.5g perlite in 5 mL broth.
+The shaking incubator ran at 28~\textdegree C and 150 RPM.
+
+I drained the fermentation vials of liquid and transferred the inoculated perlite to 2 mL cryovials.
+Before discarding the LB and storing the perlite, I viewed representative samples under a microscope.
+\emph{G. sessile} and \emph{P. nameko} showed hyphae and conidia at 40$\times$ magnification.
+
+I stored the cryovials in a cardboard freezer box and chilled them, stepping down to control the cooling rate: --20~\textdegree C until frozen, then --80~\textdegree C.
+
+
+\subsection{Generating ITS data}
+
+%Rockefeller's DNA sequencing protocol is purpose-made to facilite ITS sequencing in a DIYbio setting.~\cite{rockefeller}
+
+%I collected mycelium tissue samples from colonized MEA plates by gently scraping the strongest growth areas with sterile toothpicks.
+%Then I manually ground the tissue in 1.5 mL vials with 200 $\mu$L  0.5M NaOH after Wang et al.~\cite{wang1993}
+%I pipetted 5 $\mu$L DNA extract in fresh vials with 495 $\mu$L 100 mM Tris--HCl buffer (pH 8.0) and used 1 $\mu$L solution per rection.
+
+%The PCR volume was 25 $\mu$L: 1 $\mu$L DNA extract, 0.5 $\mu$L each ITS1F and ITS4 forward and reverse primers, 5 $\mu$L [ADD BRAND] 5$\times$ PCR master mix, and 18 $\mu$L nuclease-free water.
+%The reaction finished in 1:41:02.
+
+\begin{center}
+	\begin{tabular}{l|ccc}
+
+% Headers
+\textbf{Phase} & \textbf{Time} & \textbf{Temperature} & \textbf{Cycles} \\
+\hline
+
+% Data
+Denaturation I & 120s & 95~\textdegree C & 1 \\
+Denaturation II & 30s & 95~\textdegree C & 30 \\
+Annealing & 30s & 54~\textdegree C & 30 \\
+Extension & 55s & 72~\textdegree C & 30 \\
+Cooling & $\infty$ & 4~\textdegree C & nil \\
+
+	\end{tabular}
+\end{center}
+
+The positive control was a pGreen plasmid~\cite{hellens2000} and the negative control was nuclease-free water.
+I ran gel electrophoresis on a miniPCR blueGel system with a 1 kb ladder.
+I also ran a Qubit fluorometer with [ADD PARAMETERS].
+
+\textsc{todo.} Run the PCR again, decide on Qubit or gel, and send samples for Sanger sequencing.
+
+
+\section{Results and discussion}
+
+The --80~\textdegree C freezer underscores a larger storage strategy.
+Ideally the cryovials should never be opened except as a last resort.
+
+Working quantities of mycelium are more readily available in agar slants or saline vials.
+Cold storage with ITS sequences are a trusted baseline to return to in case I compromise any downstream samples.
+
+
+\subsection{1st generation results}
+
+\begin{center}
+	\begin{tabular}{l|ccc}
+
+% Headers
+\textbf{Species} & \textbf{P Value} & \textbf{Isolation date} & \textbf{Viability} \\
+\hline
+
+% Data
+\emph{A. aegerita} & P-5 & 2018-Mar-01 & nil \\
+\hline
+
+\emph{G. lucidum} & P-1 & 2018-Mar-01 & nil \\
+\emph{G. sessile} & P-1 & 2018-Mar-01 & nil \\
+\hline
+
+\emph{G. frondosa} \textsc{nh} & P-1 & 2018-Mar-01 & nil \\
+\hline
+
+\emph{H. abietis} & P-4 & 2018-Mar-01 & nil \\
+\emph{H. americanum} & P-2 & 2018-Mar-01 & nil \\
+\hline
+
+\emph{I. obliquus} & P-1 & 2018-Mar-01 & nil \\
+\hline
+
+\emph{I. resinosum} & P-1 & 2018-Mar-01 & nil \\
+\hline
+
+\emph{L. edodes} & P-4 & 2018-Mar-01 & nil \\
+\hline
+
+\emph{P. roqueforti} & P-2 & 2018-Mar-01 & nil \\
+\hline
+
+\emph{P. nameko} & P-1 & 2018-Mar-01 & nil \\
+\hline
+
+\emph{P. tuber-regium} & P-2 & 2018-Mar-01 & nil \\
+
+	\end{tabular}
+\end{center}
+
+
+\subsection{Fine-tuning the medium}
+
+Successful cryopreservation is largely a function of freezing and revival times: slow to freeze, quick to revive.
+
+Malt extract is the typical basal sugar used in mushroom cultivation because its low pH and high peptone content selectively favors fungi over bacteria.
+A simplified version of Czapek medium may be ideal for perlite protocol: 30 g/L malt extract, 10\% glycerol, 6 g/L sea salt, and an optional antibiotic.
+
+Assuming negligible or no metabolism at --80~\textdegree C, using 50\% more sugar than standard MEA (20 g/L) may speed up revival without risking growth or contamination in storage.
+
+A similarly high sugar ratio wouldn't likely be suitable for agar slants that require gas exchange for a slower but active metabolism.
+Serial transfers with agar slants excel on less nutritious media such as cornmeal to prevent metabolism under refrigeration.~\cite{GGMM}
+
+
+\section{Future work}
+
+Anthropogenic mass extinction fundamentally changes the environment and accelerates the rate of random mutations.
+Therefore it's necessary to guarantee the persistence and integrity of as many beneficial genomes as possible.
+
+
+\subsection{Reconstructing helpful biomolecules}
+
+\textsc{todo.}
+
+
+\subsection{Developing proprietary species variants}
+
+Developing a mushroom variety typically involves rigorous phenotype selection over 7--10 generations of spore-to-shroom grows.
+This rewards the cultivator with a reliable source of novel genetic lineages that mostly express the same desired traits.
+The presence or absence of metabolites is another useful selection bias that benefits from comparing a diverse population.
+
+A good genetic balance is one print to many germination plates.
+Take spores from the model specimen of your crop to enforce a higher minimum standard and advance the lineage.
+Make as many germination plates as possible to ensure that your starting material represents the fittest progeny in a diverse population.
+
+Collect spores from the desired sample to iterate your selections and advance the lineage of the variety.
+Agar slants of reference isolates provide a source of inoculum for aerobically fermented malt or dextrose broth.
+This generates enough mycelium to inoculate, colonize, and birth sterile sawdust and wheat bran cakes in a humid terrarium.
+The resulting mushrooms provide spores for the next generation and food for the cultivator.
+
+
+% References
+
+\bibliographystyle{plain}
+\bibliography{biblio}
+
+\end{document}
