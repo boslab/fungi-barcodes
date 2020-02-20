@@ -111,10 +111,12 @@ I used 25 cycles in an attempt to increase the data's fidelity without sacrifici
 | :---			| :---:		| :---:			| :---:		|
 | Denaturation I	| 60		| 95			| 1		|
 | Denaturation II	| 30		| 95			| 25		|
-| Annealing (ITS)	| 30		| 46			| 25		|
-| Annealing (NS7)	| 30		| 51			| 25		|
-| Extension I (ITS)	| 45		| 68			| 25		|
-| Extension I (NS7)	| 90		| 68			| 25		|
+| Annealing		| 		| 			| 		|
+| 👉 ITS 1F/ITS4	| 30		| 46			| 25		|
+| 👉 NS7/LR3		| 30		| 51			| 25		|
+| Extension I		| 		| 			| 		|
+| 👉 ITS 1F/ITS4	| 45		| 68			| 25		|
+| 👉 NS7/LR3		| 90		| 68			| 25		|
 | Extension II		| 300		| 68			| 1		|
 | Cooling		| ∞		| 4			| nil		|
 
