@@ -73,6 +73,7 @@ For example, *H. abietis* vs. *H. coralloides* yielded 239.0 vs. 29.2 μg/mL, an
 | :---			|
 | Primer map from https://dx.doi.org/10.1371%2Fjournal.pone.0097629 |
 
+
 ## Quantifying and amplifying the DNA extract
 
 I ran a Qubit v1.27 fluorometer assay with 1 μL sample sizes and recalibrated the device each time I used it.
@@ -160,6 +161,7 @@ Maybe add a note about the yields required for the expected length.
 | ![](goat.cheese.jpg)	|
 | :---			|
 | The "Terrene" goat cheese |
+
 
 # Results and discussion
 
