@@ -142,7 +142,7 @@ Each gel contained the following reagents.
 
 todo:
 The bands weren't great.
-So I should PCR it again with half the volume and a hifh-fidelity master mix.
+So I should PCR it again with half the volume and a high-fidelity master mix.
 Then I can use double the normal amount in the gel.
 This will really overload the beads or I can find another purification method.
 
@@ -154,7 +154,7 @@ I also added 6× loading dye to each well: 20% of the amount of PCR product in t
 
 todo:
 Probably a quick paragraph about diluting primers and adding purified DNA.
-Add a note about the yields required for the expected length.
+Maybe add a note about the yields required for the expected length.
 
 
 | ![](goat.cheese.jpg)	|
@@ -165,7 +165,7 @@ Add a note about the yields required for the expected length.
 
 The origins of my culture collection vary wildly.
 Most came from trades with friends from the Shroomery online forum.
-I don't trade with herbs.
+I don't trade with losers.
 The *Ganodermas* came from Ryan Paul Gates via the Shroomery.
 
 Those labelled "Mycoterra" came from Mycoterra Farm in South Deerfield, MA.
@@ -215,7 +215,7 @@ I isolated the *P. roqueforti* myself from supermarket blue cheese.
 | Goat cheese rind "Terrene"	| nil		| 2019-05-17	| 330		| 19.2			| 12.2		| nil		| 4.67		| nil		|
 | Sourdough starter "Gerta"	| nil		| 2019-05-17	| 330		| 30.4			| 12.4		| nil		| 17.1		| nil		|
 | pGreen plasmid (+)		| nil		| 2019-05-28	| nil		| 2.28			| 3.01		| nil		| < 0.010	| nil		|
-| Nuclease-free water (--)	| nil		| 2019-05-28	| nil		| < 0.010		| 3.58		| nil		| 9.92		| nil		|
+| Nuclease-free water (–)	| nil		| 2019-05-28	| nil		| < 0.010		| 3.58		| nil		| 9.92		| nil		|
 	
 
 ## Phylogenetic analysis
