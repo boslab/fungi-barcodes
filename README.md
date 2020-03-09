@@ -70,7 +70,7 @@ For example, *H. abietis* vs. *H. coralloides* yielded 239.0 vs. 29.2 μg/mL, an
 
 
 | ![](primer.map.png)	|
-| :---			|
+| :--			|
 | Primer map from https://dx.doi.org/10.1371%2Fjournal.pone.0097629 |
 
 
@@ -88,7 +88,7 @@ The tradeoff was decreased specifity vs. being able to use the same primers for 
 This seems negligible because all the crude biomass comes from pure sources such as cultivated broth.
 
 | Primer	| Sequence				| Direction	| Bases	| % GC	| T<sub>m</sub> (°C)	|
-| :---		| :---					| :---:		| :---:	| :---:	| :---:			|
+| :--		| :--					| :--:		| :--:	| :--:	| :--:			|
 | ITS 1F	| 5'-CTTGGTCATTTAGAGGAAGTAA-3'		| →		| 22	| 36	| 51			|
 | ITS4		| 5'-TCCTCCGCTTATTGATATGC-3'		| ←		| 20	| 45	| 54			|
 | NS7		| 5'-GAGGCAATAACAGGTCTGTGATGC-3'	| →		| 24	| 50	| 68			|
@@ -109,7 +109,7 @@ The T<sub>m</sub> calculator helped me determine the annealing temperature and t
 I used 25 cycles in an attempt to increase the data's fidelity without sacrificing the yield.
 
 | Phase			| Time (s)	| Temperature (°C)	| Cycles	|
-| :---			| :---:		| :---:			| :---:		|
+| :--			| :--:		| :--:			| :--:		|
 | Denaturation I	| 60		| 95			| 1		|
 | Denaturation II	| 30		| 95			| 25		|
 | Annealing		| 		| 			| 		|
@@ -159,7 +159,7 @@ Maybe add a note about the yields required for the expected length.
 
 
 | ![](goat.cheese.jpg)	|
-| :---			|
+| :--			|
 | The "Terrene" goat cheese |
 
 
@@ -188,7 +188,7 @@ I isolated the *P. roqueforti* myself from supermarket blue cheese.
 ## Tabulated yields
 
 | Species			| P Value	| Date (Y-m-d)	| Biomass (mg)	| Raw extract (μg/mL)	| ITS PCR prod.	| ITS purified	| NS7 PCR prod.	| NS7 purified	|
-| :---				| :---:		| :---:		| :---:		| :---:			| :---:		| :---:		| :---:		| :---:		|
+| :--				| :--:		| :--:		| :--:		| :--:			| :--:		| :--:		| :--:		| :--:		|
 | *A. aegerita*			| P-5		| 2018-04-10	| 470		| 41.3			| 13.2		| nil		| 7.41		| nil		|
 | *A. niger* "Carolina"		| P-1		| 2019-02-21	| 650		| 68.9			| 13.7		| nil		| 5.34		| nil		|
 | *C. comatus*			| P-1		| 2019-03-07	| nil		| 183.0			| 8.97		| nil		| 17.4		| nil		|
