@@ -77,7 +77,7 @@ For example, *H. abietis* vs. *H. coralloides* yielded 239.0 vs. 29.2 μg/mL, an
 ## Quantifying and amplifying the DNA extract
 
 I ran a Qubit v1.27 fluorometer assay with 1 μL sample sizes and recalibrated the device each time I used it.
-The positive control was a pGreen plasmid [@hellens2000] and the negative control was nuclease-free water.
+The positive control was a pGreen plasmid[^hellens2000] and the negative control was nuclease-free water.
 
 The primer sequences are ITS 1F/ITS4 from the [Fungal Barcoding website developed by NIH/NLM/NCBI](http://www.fungalbarcoding.org/DefaultInfo.aspx?Page=Primers).
 This website is down as of 28 May 2019 so please find the information below, supplemented with data from [NEB's T<sub>m</sub> calculator](https://tmcalculator.neb.com).
@@ -237,3 +237,12 @@ There is also low pharmaceutical interest in medicinal fungi, often difficult or
 
 Biosynthetic gene clusters isolated and transformed seem unlikely to replicate the range of medicinal fractions present in the live mushroom.
 For these reasons I believe that storing live cultures under a sensible regimen, supercooled in inert media and with DNA identification, is a productive effort.
+
+
+<!--
+  Bibliography
+  Paste Sci-Hub URI, edit
+  *Title* and https://doi.org/
+-->
+
+[^hellens2000]: Hellens, R. P., Edwards, E. A., Leyland, N. R., Bean, S., & Mullineaux, P. M. (2000). *Plant Molecular Biology,* 42(6), 819–832. https://doi.org/10.1023/a:1006496308160
