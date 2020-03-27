@@ -52,7 +52,7 @@ The total biomass of each sample ranged from 330–2,060 mg ± 10 mg.
 ## Extracting DNA from the mycelium pellets
 
 I extracted the DNA from 0.25–0.5g frozen mycelium samples using a NucleoSpin Soil purification kit.
-I used lysis buffer SL1 without the enhancer SX and generally followed the [BosLab protocol annotations](BosLab.v2.protocol.pdf).
+I used lysis buffer SL1 without the enhancer SX and generally followed the [BosLab protocol annotations](documents/BosLab.v2.protocol.pdf).
 Note that I performed the SB wash and the SW2 wash twice as in the original protocol.
 
 I incubated 50 μL elution buffer, the recommended quantity for a medium-concentration extract, at 30 °C for 5 min.
@@ -69,8 +69,8 @@ This was apparently arbitrary and I achieved wildly different yields even within
 For example, *H. abietis* vs. *H. coralloides* yielded 239.0 vs. 29.2 μg/mL, an 8-fold difference.
 
 
-| ![](primer.map.png)	|
-| :--			|
+| ![](pictures/primer.map.png)	|
+| :--				|
 | Primer map from https://dx.doi.org/10.1371%2Fjournal.pone.0097629 |
 
 
@@ -124,8 +124,8 @@ I used 25 cycles in an attempt to increase the data's fidelity without sacrifici
 The thermocycler I used was an [add model].
 Please see the run reports for each primer pair tested.
 
-- [Veriti.Run.Report.ITS1F.ITS4.txt](Veriti.Run.Report.ITS1F.ITS4.txt)
-- [Veriti.Run.Report.NS7.LR3.txt](Veriti.Run.Report.NS7.LR3.txt)
+- [Veriti.Run.Report.ITS1F.ITS4.txt](documents/Veriti.Run.Report.ITS1F.ITS4.txt)
+- [Veriti.Run.Report.NS7.LR3.txt](documents/Veriti.Run.Report.NS7.LR3.txt)
 
 
 ## Purifying PCR products from agarose gels
@@ -158,8 +158,8 @@ Probably a quick paragraph about diluting primers and adding purified DNA.
 Maybe add a note about the yields required for the expected length.
 
 
-| ![](goat.cheese.jpg)	|
-| :--			|
+| ![](pictures/goat.cheese.jpg)	|
+| :--				|
 | The "Terrene" goat cheese |
 
 
