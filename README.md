@@ -87,14 +87,14 @@ Note that while my culture library skews heavily toward basidiomycetes, I opted 
 The tradeoff was decreased specifity vs. being able to use the same primers for all samples in my collection.
 This seems negligible because all the crude biomass comes from pure sources such as cultivated broth.
 
-| Primer	| Sequence				| Direction	| Bases	| % GC	| T<sub>m</sub> (°C)	|
+| Primer	| Sequence (5' → 3')			| Direction	| Bases	| % GC	| T<sub>m</sub> (°C)	|
 | :--		| :--					| :--:		| :--:	| :--:	| :--:			|
-| ITS 1F	| `5'-CTTGGTCATTTAGAGGAAGTAA-3'`	| →		| 22	| 36	| 51			|
-| ITS4		| `5'-TCCTCCGCTTATTGATATGC-3'`		| ←		| 20	| 45	| 54			|
-| NS7		| `5'-GAGGCAATAACAGGTCTGTGATGC-3'`	| →		| 24	| 50	| 68			|
-| LR3		| `5'-CCGTGTTTCAAGACGGG-3'`		| ←		| 17	| 59	| 64			|
-| GFP-F		| `5'-GGTCCTTCTTGAGTTTGTAAC-3'`		| →		| 21	| 43	| 53			|
-| GFP-R		| `5'-CCATCTAATTCAACAAGAATTGGGACAAC-3'`	| ←		| 29	| 38	| 58			|
+| ITS 1F	| `CTTGGTCATTTAGAGGAAGTAA`		| →		| 22	| 36	| 51			|
+| ITS4		| `TCCTCCGCTTATTGATATGC`		| ←		| 20	| 45	| 54			|
+| NS7		| `GAGGCAATAACAGGTCTGTGATGC`		| →		| 24	| 50	| 68			|
+| LR3		| `CCGTGTTTCAAGACGGG`			| ←		| 17	| 59	| 64			|
+| GFP-F		| `GGTCCTTCTTGAGTTTGTAAC`		| →		| 21	| 43	| 53			|
+| GFP-R		| `CCATCTAATTCAACAAGAATTGGGACAAC`	| ←		| 29	| 38	| 58			|
 
 I designed a PCR protocol based on [NEB's standard protocol](https://www.neb.com/protocols/0001/01/01/taq-dna-polymerase-with-standard-taq-buffer-m0273) and
 [their PCR optimization guidelines](https://www.neb.com/tools-and-resources/usage-guidelines/guidelines-for-pcr-optimization-with-taq-dna-polymerase).
