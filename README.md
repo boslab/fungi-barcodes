@@ -141,7 +141,7 @@ Each gel contained the following reagents.
 - 0.105g agarose
 - 1.5 μL GelGreen dye
 
-todo:
+`todo:`
 The bands weren't great.
 So I should PCR it again with half the volume and a high-fidelity master mix.
 Then I can use double the normal amount in the gel.
@@ -153,7 +153,7 @@ I also added 6× loading dye to each well: 20% of the amount of PCR product in t
 
 ## Preparing samples for sequencing
 
-todo:
+`todo:`
 Probably a quick paragraph about diluting primers and adding purified DNA.
 Maybe add a note about the yields required for the expected length.
 
@@ -222,7 +222,7 @@ I isolated the *P. roqueforti* myself from supermarket blue cheese.
 
 ## Phylogenetic analysis
 
-todo
+`todo`
 
 
 # Future work
