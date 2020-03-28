@@ -242,9 +242,9 @@ For these reasons I believe that storing live cultures under a sensible regimen,
 <!--
   Bibliography
   Paste Sci-Hub URI, edit
-  *Title* and *Journal* and https://doi.org/
+  "Title," *Journal,* and https://doi.org/
 -->
 
 [^hellens2000]: Hellens, R. P., Edwards, E. A., Leyland, N. R., Bean, S., & Mullineaux, P. M. (2000). *Plant Molecular Biology,* 42(6), 819–832. https://doi.org/10.1023/a:1006496308160
 
-[^beeck2014]: Op De Beeck, M., Lievens, B., Busschaert, P., Declerck, S., Vangronsveld, J., & Colpaert, J. V. (2014). *Comparison and Validation of Some ITS Primer Pairs Useful for Fungal Metabarcoding Studies.* *PLoS ONE,* 9(6), e97629. https://doi.org/10.1371/journal.pone.0097629
+[^beeck2014]: Op De Beeck, M., Lievens, B., Busschaert, P., Declerck, S., Vangronsveld, J., & Colpaert, J. V. (2014). "Comparison and Validation of Some ITS Primer Pairs Useful for Fungal Metabarcoding Studies." *PLoS ONE,* 9(6), e97629. https://doi.org/10.1371/journal.pone.0097629
