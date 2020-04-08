@@ -187,38 +187,54 @@ I isolated the *P. roqueforti* myself from supermarket blue cheese.
 
 ## Tabulated yields
 
-| Species			| P Value	| Date (Y-m-d)	| Biomass (mg)	| Raw extract (μg/mL)	| ITS PCR prod.	| ITS purified	| NS7 PCR prod.	| NS7 purified	|
-| :--				| :--:		| :--:		| :--:		| :--:			| :--:		| :--:		| :--:		| :--:		|
-| *A. aegerita*			| P-5		| 2018-04-10	| 470		| 41.3			| 13.2		| nil		| 7.41		| nil		|
-| *A. niger* "Carolina"		| P-1		| 2019-02-21	| 650		| 68.9			| 13.7		| nil		| 5.34		| nil		|
-| *C. comatus*			| P-1		| 2019-03-07	| nil		| 183.0			| 8.97		| nil		| 17.4		| nil		|
-| *F. betulina* "MMF'19"	| P-???		| 2019-???-???	| 180		| 2.29			| 3.71		| nil		| 8.48		| nil		|
-| *G. lucidum* "RPG"		| P-1		| 2018-02-10	| 490		| 19.2			| 4.85		| nil		| 4.10		| nil		|
-| *G. sessile* "HW"		| P-1		| 2018-02-03	| 420		| 9.36			| 10.1		| nil		| 23.1		| nil		|
-| *G. frondosa* "Charles River" | P-2		| 2018-12-29	| 420		| 68.3			| 21.1		| nil		| 20.6		| nil		|
-| *G. frondosa* "Fat Moon"	| P-1		| 2018-02-10	| 840		| 43.8			| 13.7		| nil		| 18.1		| nil		|
-| *H. abietis*			| P-4		| 2018-02-10	| 360		| 239.0			| 18.1		| nil		| 23.4		| nil		|
-| *H. coralloides* "Cummington"	| P-2		| 2018-02-10	| 970		| 29.2			| 4.91		| nil		| 8.63		| nil		|
-| *I. obliquus* "Wild"		| P-1		| 2018-02-10	| 770		| 59.4			| 7.90		| nil		| 17.3		| nil		|
-| *I. resinosum* "Cummington"	| P-1		| 2018-02-10	| 890		| 20.9			| 8.96		| nil		| 5.72		| nil		|
-| *L. edodes* "3782"		| P-4		| 2018-02-10	| 720		| 13.2			| 17.3		| nil		| 8.43		| nil		|
-| *P. roqueforti*		| P-2		| 2018-02-10	| 750		| 38.3			| 6.66		| nil		| 19.5		| nil		|
-| *P. adiposa* "Mycoterra"	| P-???		| 2019-???-???	| 330		| 84.4			| 4.15		| nil		| 12.3		| nil		|
-| *P. nameko* "JPN"		| P-1		| 2018-02-03	| 730		| 115.0			| 8.82		| nil		| 25.0		| nil		|
-| *P. nameko* "Mycoterra"	| P-7		| 2018-11-20	| 600		| 56.2			| 9.47		| nil		| 25.3		| nil		|
-| *P. columbinus* "Mycoterra"	| P-5		| 2018-11-20	| 740		| 15.2			| 18.9		| nil		| 15.5		| nil		|
-| *P. erygnii*			| P-1		| 2019-02-26	| 860		| 33.5			| 4.22		| nil		| 13.3		| nil		|
-| *P. ostreatus* "Black Pearl"	| P-???		| 2019-???-???	| 1,290		| 6.09			| 3.05		| nil		| 13.4		| nil		|
-| *P. ostreatus* "Mycoterra"	| P-5		| 2018-11-20	| 1,360		| 11.9			| 4.49		| nil		| 11.4		| nil		|
-| *P. pulmonaris*		| P-???		| 2018-???-???	| 2,060		| 3.67			| 3.54		| nil		| 20.8		| nil		|
-| *P. tuber-regium*		| P-2		| 2018-02-10	| 1,100		| 23.4			| 21.6		| nil		| 6.57		| nil		|
-| *S. bayanus*			| nil		| 2018		| 330		| 77.6			| 2.90		| nil		| 5.07		| nil		|
-| *S. cerevisiae* "Abbaye"	| nil		| 2018		| 330		| 192.0			| 8.31		| nil		| 11.9		| nil		|
-| Goat cheese rind "Terrene"	| nil		| 2019-05-17	| 330		| 19.2			| 12.2		| nil		| 4.67		| nil		|
-| Sourdough starter "Gerta"	| nil		| 2019-05-17	| 330		| 30.4			| 12.4		| nil		| 17.1		| nil		|
-| pGreen plasmid (+)		| nil		| 2019-05-28	| nil		| 2.28			| 3.01		| nil		| < 0.010	| nil		|
-| Nuclease-free water (–)	| nil		| 2019-05-28	| nil		| < 0.010		| 3.58		| nil		| 9.92		| nil		|
-	
+Please see
+[diybio/structured-water](/diybio/structured-water#user-content-5th-generation-results)
+for the master culture table.
+Check the HexID to positively confirm samples.
+
+The tube numbers here refer to the original list from 2019-02-16, variously appended.
+Those there are canonical relative to the 2020-04-01 epoch and refer to cryo tubes.
+
+This table of Qubit extract, PCR, and purification results is likewise simplied.
+I left the biomass grown because it provides relative virulence data, interesting but irrelevant.
+Only 250 mg was needed to capture the DNA in aggregate.
+
+Please note that due to my failure, only the PCR product and gel purification columns use the average of three Qubit reads.
+The raw extract readings are based on a single Qubit read and are less accurate than the averaged reads.
+All DNA wuantities are measured in μg/mL.
+
+| Tube	| Binomial			| Strain			| Biomass (mg)	| DNA extract	| PCR prod.	| Gel purif.	| HexID	| Notes |
+| :-:	| :--				| :--				| :-:		| :-:		| :-:		| :-:		| :-:	| :-- |
+| 17	| *Aspergillus niger*		| Carolina			| 650		| 68.9		|		|		| `3D5D`||
+| 18	| *Coprinus comatus*		|				| nil		| 183.0		|		|		| `4C9B`||
+| 01	| *Cyclocybe aegerita*		|				| 470		| 41.3		|		|		| `DFC6`||
+| 26	| *Fomitopsis betulina*		| Mass Mushroom Fest '19	| 180		| 2.29		|		|		| `34CA`||
+| 04	| *Ganoderma lucidum*		| Ryan Paul Gates		| 490		| 19.2		|		|		| `49E3`||
+| 05	| *Ganoderma sessile*		| Ryan Paul Gates · HW		| 420		| 9.36		|		|		| `5763`||
+| 02	| *Grifola frondosa*		| Charles River			| 420		| 68.3		|		|		| `CD38`||
+| 03	| *Grifola frondosa*		| Fat Moon Farm			| 840		| 43.8		|		|		| `8DE3`||
+| 06	| *Hericium abietis*		|				| 360		| 239.0		|		|		| `BC2B`||
+| 07	| *Hericium coralloides*	| Bryant Homestead		| 970		| 29.2		|		|		| `7D68`||
+| 08	| *Inonotus obliquus*		| leschampignons · Wild		| 770		| 59.4		|		|		| `6254`||
+| 09	| *Ischnoderma resinosum*	| Bryant Homestead		| 890		| 20.9		|		|		| `7873`||
+| 10	| *Lentinula edodes*		| 3782				| 720		| 13.2		|		|		| `0F8C`||
+| 15	| *Penicillium roqueforti*	|				| 750		| 38.3		|		|		| `3626`||
+| 23	| *Pholiota adiposa*		| Mycoterra Farm		| 330		| 84.4		|		|		| `1D8C`| No culture tube exists |
+| 12	| *Pholiota microspora*		| JPN				| 730		| 115.0		|		|		| `42FD`||
+| 13	| *Pholiota microspora*		| Mycoterra Farm		| 600		| 56.2		|		|		| `39D9`||
+| 11	| *Pleurotus columbinus*	| Mycoterra Farm		| 740		| 15.2		|		|		| `0586`||
+| 21	| *Pleurotus eryngii*		|				| 860		| 33.5		|		|		| `E48E`||
+| 25	| *Pleurotus ostreatus*		| Black Pearl			| 1,290		| 6.09		|		|		| `ACEA`| Oxford Nanopore candidate |
+| 14	| *Pleurotus ostreatus*		| Mycoterra Farm		| 1,360		| 11.9		|		|		| `6AC1`||
+| 22	| *Pleurotus pulmonaris*	|				| 2,060		| 3.67		|		|		| `80AC`| No culture tube exists |
+| 16	| *Pleurotus tuber-regium*	|				| 1,100		| 23.4		|		|		| `EF1B`||
+| Y1	| *Saccharomyces bayanus*	|				| 330		| 77.6		|		|		| `9079`||
+| Y2	| *Saccharomyces cerevisiae*	| Abbaye			| 330		| 192.0		|		|		| `9C81`||
+| 24	| Goat cheese rind		| Terrene			| 330		| 19.2		|		|		| `4EC0`| MiSeq 16S candidate |
+| SD	| Sourdough starter		| Gerta				| 330		| 30.4		|		|		| `9F97`| MiSeq 16S candidate |
+| +	| pGreen plasmid		|				| nil		| 2.28		|		|		| `9C4B`||
+| –	| Nuclease-free water		|				| nil		| < 0.010	|		|		| `153F`||
+
 
 ## Phylogenetic analysis
 
